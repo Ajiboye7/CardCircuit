@@ -1,16 +1,18 @@
 "use client"
 import Image  from "next/image";
-
-const customButton = () => {
+import { text } from "stream/consumers";
+import {CustomButtonProps} from "@types"
+const Button = ({title}:) => {
   return (
     <div>
       <button 
-       type="submit"
-       className=".btn">
-
+       type={"submit"}
+       className={".btn-bg"}
+       >
+        <span>{title}</span>
       </button>
     </div>
   );
 }
 
-export default customButton;
+export default Button;

@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 
-.btn {
-  @apply bg-buttonBlue text-white;
+.btn-bg {
+  @apply bg-buttonBlue;
 }

@@ -34,18 +34,23 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-row items-center justify-between p-4 ">
+    <nav className="flex flex-row items-center justify-between p-4 w-full max-w-[1550px] mx-auto ">
+      <div>
       <Link href="/" className="flex flex-row items-center">
         <Image src="/Logo.svg" alt="logo" width={70} height={70} />
         <h2 className="text-fontColor text-2xl px-5">Card Circuit</h2>
       </Link>
-      <div className="flex space-x-6 bg-linkBg p-6 rounded-full">
+      </div>
+      <div className="nav-links flex space-x-6 bg-linkBg p-6 rounded-full">
         <Link href="/" className="text-fontColor hover:text-blue-800">Home</Link>
         <Link href="/features" className="text-fontColor hover:text-blue-800">Features</Link>
         <Link href="/stories" className="text-fontColor hover:text-blue-800">Stories</Link>
         <Link href="/about-us" className="text-fontColor hover:text-blue-800">About Us</Link>
       </div>
-      <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg"/>
+      <div className="nav-button">
+      <CustomButton title="Get the App" containerStyles="text-fontColor " Icon="/Arrow Right.svg"/>
+      </div>
+      
     </nav>
   );
 };

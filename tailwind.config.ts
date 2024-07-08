@@ -10,7 +10,11 @@ const config: Config = {
     extend: {
       colors:{
         buttonBlue: '#3555F5',
-      }
+        customBg: ' #030B11',
+        linkBg: '#808B961A'
+
+      },
+      
     },
   },
   plugins: [],

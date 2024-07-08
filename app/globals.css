@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 
-.btn-bg {
-  @apply bg-buttonBlue;
+body {
+  @apply bg-customBg; 
 }
+
+.btn-bg {
+  @apply bg-buttonBlue; 
+}
+.navlink-bg{
+  @apply bg-linkBg;
+}
+
+

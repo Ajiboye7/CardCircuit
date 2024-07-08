@@ -3,19 +3,11 @@ import { CustomButtonProps } from "../types/index";
 
 const Button = ({ title, containerStyles, rightIcon }: CustomButtonProps) => (
   <div>
-    <button
-      type="submit"
-      className={`  ${containerStyles}`}
-    >
-      <span>{title}</span>
+    <button type="submit" className={`flex flex-row  ${containerStyles}`}>
+      <span className="text-blue-900">{title}</span>
       {rightIcon && (
         <div>
-            <Image
-            src={rightIcon}
-            alt="arrow_right"
-            width={113}
-            height={20}
-            />
+          <Image src={rightIcon} alt="arrow_right" width={20} height={20} />
         </div>
       )}
     </button>

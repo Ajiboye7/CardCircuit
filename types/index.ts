@@ -3,5 +3,5 @@
 export interface CustomButtonProps{
     title: string
     containerStyles ?: string
-    rightIcon: string
+    Icon: string
 }

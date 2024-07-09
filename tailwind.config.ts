@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      width:{
+        '600' :'600px',
+      },
       colors: {
         buttonBlue: '#3555F5',
         customBg: '#030B11',

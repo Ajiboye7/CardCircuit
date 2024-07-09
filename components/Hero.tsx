@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         <div className="main-info-right relative flex-1 flex flex-col items-center mt-5 ">
           <div className="mb-3">
-          <span className="border-l-4 border-borderLine h-12 absolute top-5 "  style={{ left: '200px' }}></span>
+          <span className="border-l-4 border-borderLine h-12 absolute top-5"  style={{ left: '200px' }}></span>
             <p className="text-fontColor py-5 text-xl ">
               Welcome to seamless centralized banking.
               <br />

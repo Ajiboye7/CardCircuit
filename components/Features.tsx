@@ -17,13 +17,13 @@ const Features = () => {
               transactions, and stay on top of <br />
               your finances effortlessly!.
             </p>
-            <div className="absolute bottom-0 right-0 w-full h-full transition-transform transition-opacity group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 translate-x-full translate-y-full duration-700">
+            <div className="absolute bottom-0 right-0 transition-transform transition-opacity group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 translate-x-full translate-y-full duration-1000">
               <Image
                 src="/My Cards Screen Mockup 3.svg"
                 alt="image7"
                 width={500}
                 height={500}
-                
+                className="w-full h-full"
               />
             </div>
           </div>

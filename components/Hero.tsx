@@ -3,7 +3,7 @@ import CustomButton from "./CustomButton";
 
 const Hero = () => {
   return (
-    <main className=" flex flex-wrap flex-col max-w-[1800px] mx-auto h-screen border-solid border-4 border-light-blue-500" >
+    <main className=" flex flex-wrap flex-col max-w-[1800px] mx-auto h-screen " >
       <div className="  main-info  flex h-1/4 mx-14 justify-between border-solid border-2 border-light-blue-200 ">
         <div className="main-info-left flex-1">
           <h2 className="text-fontColor text-5xl py-2">

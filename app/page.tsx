@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <Hero/>
-      
+      <h2  className="text-fontColor text-7xl">Let go</h2>
     </main>
   );
 }

@@ -54,8 +54,8 @@ import CustomButton from "./CustomButton";
 
 const Hero = () => {
   return (
-    <main className="flex flex-col max-w-[1800px] mx-auto h-screen px-4 md:px-14">
-      <div className=" flex-col md:flex-row items-center md:items-start justify-between h-full space-y-6 md:space-y-0">
+    <main className="flex flex-col max-w-[1800px] mx-auto  px-4 md:px-14">
+      <div className="  md:flex-row items-center md:items-start justify-between  space-y-6 md:space-y-0 border-solid border-2 border-light-blue-200">
         <div className="flex-1 flex flex-row justify-between space-y-4 md:space-y-6">
           <div className="left">
             <h2 className="text-fontColor text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
@@ -83,12 +83,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative h-3/4 ">
+        <div className="">
           <Image
             src="/Mockups.svg"
             alt="mock-up"
-            layout="fill"
-            objectFit="cover"
+            width={2500}
+            height={2500}
+            
+         
           />
         </div>
       </div>

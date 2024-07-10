@@ -27,7 +27,7 @@ const Navbar = () => {
 export default Navbar;*/
 
 // components/Navbar.tsx
-import React from "react";
+/*import React from "react";
 import CustomButton from "./CustomButton";
 import Image from "next/image";
 import Link from "next/link";
@@ -55,7 +55,62 @@ const Navbar = () => {
   );
 };
 
+export default Navbar;*/
+'use client'
+import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import CustomButton from "./CustomButton";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <nav className="flex flex-row items-center justify-between p-4 w-full max-w-[1550px] mx-auto">
+      <div className="flex flex-row items-center">
+        <Link href="/">
+          <div className="flex flex-row items-center">
+            <Image src="/Logo.svg" alt="logo" width={50} height={50} className="w-12 h-12 md:w-16 md:h-16" />
+            <h2 className="text-fontColor text-xl md:text-2xl px-2 md:px-5">Card Circuit</h2>
+          </div>
+        </Link>
+      </div>
+      <div className="hidden md:flex space-x-6 bg-linkBg p-6 rounded-full">
+        <Link href="/" className="text-fontColor hover:text-blue-800">Home</Link>
+        <Link href="/features" className="text-fontColor hover:text-blue-800">Features</Link>
+        <Link href="/stories" className="text-fontColor hover:text-blue-800">Stories</Link>
+        <Link href="/about-us" className="text-fontColor hover:text-blue-800">About Us</Link>
+      </div>
+      <div className="hidden md:flex">
+        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
+      </div>
+      <div className="md:hidden">
+        <button onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? (
+            <FontAwesomeIcon icon={faTimes} className="w-6 h-6 text-fontColor" />
+          ) : (
+            <FontAwesomeIcon icon={faBars} className="w-6 h-6 text-fontColor" />
+          )}
+        </button>
+      </div>
+      {isOpen && (
+        <div className="absolute top-16 left-0 right-0 bg-white flex flex-col items-center space-y-4 py-6 md:hidden">
+          <Link href="/" className="text-fontColor hover:text-blue-800">Home</Link>
+          <Link href="/features" className="text-fontColor hover:text-blue-800">Features</Link>
+          <Link href="/stories" className="text-fontColor hover:text-blue-800">Stories</Link>
+          <Link href="/about-us" className="text-fontColor hover:text-blue-800">About Us</Link>
+          <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
+        </div>
+      )}
+    </nav>
+  );
+};
+
 export default Navbar;
+
+
 
 
 

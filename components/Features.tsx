@@ -10,7 +10,7 @@ const Features = () => {
             <h2 className="text-blue-600 text-7xl">
               <span className="font-bold">Centralize</span> Your Chaos
             </h2>
-            <p className="text-blue-400 mt-2 text-2xl">
+            <p className="text-blue-400 mt-2 text-3xl">
               Your entire financial universe in one <br />
               app.Link cards, manage
               <br />

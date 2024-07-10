@@ -52,13 +52,13 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="card-three bg-gray-200 p-4 rounded-3xl md:col-span-2">
+        <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2">
           <div className="card-content grid md:grid-cols-2 gap-4">
-            <div className="card-content-left ">
-              <h2 className="text-blue-500 text-2xl font-bold">
+            <div className="card-content-left flex-1">
+              <h2 className="text-fontColor text-2xl font-bold text-6xl">
                 Swift Transfer, Instant Control
               </h2>
-              <p className="text-blue-500 mt-2">
+              <p className="text-fontColor mt-2 text-2xl">
                 Move money effortlessly between your cards with CardCircuit's
                 lightning-quick transfers. Say goodbye to waiting and hello to
                 instant financial flexibility
@@ -71,8 +71,8 @@ const Features = () => {
                 <CustomButton title="Get on Iphone" Icon="/Vector.svg" />
               </div>
             </div>
-            <div className="card-content-right">
-              <Image src="/image 7.svg" alt="image7" width={300} height={300} />
+            <div className="card-content-right mt-9 ml-16 flex-1">
+              <Image src="/image 7.svg" alt="image7" width={400} height={400} />
             </div>
           </div>
         </div>

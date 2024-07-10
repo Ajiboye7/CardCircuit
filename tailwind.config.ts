@@ -17,7 +17,8 @@ const config: Config = {
         customBg: '#030B11',
         linkBg: '#808B961A',
         fontColor: '#F0F0F0',
-        borderLine: ' #3555F5'
+        borderLine: ' #3555F5',
+        cardThreeBg :  '#304DDE'
       },
       backgroundImage:{
         'hero-bg': "url('/Header Background.svg')"

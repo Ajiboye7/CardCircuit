@@ -7,7 +7,7 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="card-one bg-gray-200 p-4 rounded-3xl pl-12 relative group overflow-hidden ">
           <div className="card-content flex flex-col flex-wrap">
-            <h2 className="text-blue-600 text-7xl ">
+            <h2 className="text-fontColor font-bold text-3xl md:text-5xl md:text-blue-500 lg:text-6xl lg:text-orange-800 xl:text-7xl xl:text-red-950 ">
               <span className="font-bold">Centralize</span> Your Chaos
             </h2>
             <p className="text-blue-400 mt-2 text-3xl">
@@ -31,8 +31,8 @@ const Features = () => {
 
         <div className="card-two bg-buttonBlue p-4 rounded-3xl">
           <div className="card-content flex flex-col">
-            <h2 className="text-fontColor font-bold text-2xl md:text-5xl lg:text-6xl xl:text-7xl">
-              Spend Smarter with CardCircuit
+            <h2 className="text-fontColor font-bold text-3xl md:text-4xl md:text-blue-500 lg:text-6xl lg:text-orange-800 xl:text-7xl xl:text-red-950">
+              Spend Smarter<br/> with CardCircuit
             </h2>
             <p className="text-fontColor mt-2 text-2xl">
               Categorize your expenses, track trends, <br />
@@ -75,13 +75,13 @@ const Features = () => {
           </div>
         </div>*/}
 
-        <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2">
-          <div className="card-content grid md:grid-cols-2 gap-4">
+        {/*<div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2">
+          <div className="card-content flex flex-row items-center gap-3 px-10 ">
             <div className="card-content-left flex-1">
-              <h2 className="text-fontColor text-2xl font-bold text-6xl">
+              <h2 className="text-fontColor mb-11 text-2xl md:text-5xl font-bold xl:text-7xl">
                 Swift Transfer, Instant Control
               </h2>
-              <p className="text-fontColor mt-2 text-2xl">
+              <p className="text-fontColor mt-2 mb-12 text-2xl">
                 Move money effortlessly between your cards with CardCircuit's
                 lightning-quick transfers. Say goodbye to waiting and hello to
                 instant financial flexibility
@@ -94,17 +94,89 @@ const Features = () => {
                 <CustomButton title="Get on Iphone" Icon="/Vector.svg" />
               </div>
             </div>
-            <div className="card-content-right mt-9 ml-16 flex-1">
+            <div className="card-content-right flex-1 mt-10">
               <Image src="/image 7.svg" alt="image7" width={400} height={400} />
             </div>
           </div>
         </div>
       </div>
+    </div>*/}
+    <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2">
+    <div className="card-content flex flex-col md:flex-row items-center gap-3 px-10">
+      <div className="card-content-left flex-1">
+        <h2 className="text-fontColor mb-11 text-2xl md:text-5xl font-bold xl:text-7xl leading-tight">
+          Swift Transfer, Instant Control
+        </h2>
+        <p className="text-fontColor mt-2 mb-12 text-xl md:text-2xl">
+          Move money effortlessly between your cards with CardCircuit's
+          lightning-quick transfers. Say goodbye to waiting and hello to
+          instant financial flexibility.
+        </p>
+        <div className="main-button flex flex-col md:flex-row gap-3">
+          <CustomButton
+            title="Get on Android"
+            Icon="/playstore-svgrepo-com 1.svg"
+          />
+          <CustomButton title="Get on iPhone" Icon="/Vector.svg" />
+        </div>
+      </div>
+      <div className="card-content-right flex-1 mt-6 md:mt-0">
+        <Image
+          src="/image 7.svg"
+          alt="image7"
+          width={400}
+          height={400}
+          className="w-full h-1/2 m-0"
+        />
+      </div>
     </div>
+  </div>
+  </div>
+  </div>
+
   );
 };
 
 export default Features;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {
   /*

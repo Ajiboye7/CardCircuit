@@ -53,50 +53,34 @@ import Image from "next/image";
 import CustomButton from "./CustomButton";
 
 const Hero = () => {
-  return (
-    <main className="flex flex-col max-w-[1800px] mx-auto  px-4 md:px-14">
-      <div className="  md:flex-row items-center md:items-start justify-between space-y-6 md:space-y-0">
-        <div className=" flex flex-row justify-between space-y-4 md:space-y-6">
-          <div className="left flex-1">
-            <h2 className="text-fontColor text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
-              Simplify Your <span className="font-bold">Wallet.</span>
-              <br />
-              <span className="font-bold">Unify</span> Your Finances.
-            </h2>
-          </div>
-          <div className="right relative p-4 md:p-6 flex flex-col flex-1">
-            <div className="content border-l-4 border-blue-600">
-              <p className="text-fontColor text-lg md:text-lg lg:text-xl pl-6">
-                Welcome to seamless centralized banking.
-                <br />
-                Manage and track all your cards in one app.
-              </p>
+    return (
+        <section className="container max-w-[1400px] mx-auto p-4">
+          <div className="flex flex-col md:flex-row items-center border-solid border-4 border-light-blue-500">
+            {/* Left Side */}
+            <div className="flex-1 md:mr-4 ml-4 md:text-left mb-4 md:mb-0">
+              <h1 className="text-2xl md:text-5xl font-bold mb-4 text-fontColor ">Simplify Your Wallet.<br />Unify Your Finances.</h1>
             </div>
-            <div className="flex flex-col items-center mt-5 md:flex-row">
-              <CustomButton
-                title="Get on Android"
-                Icon="/playstore-svgrepo-com 1.svg"
-                containerStyles = "mb-4 md:mr-6 "
-                
-              />
-              <CustomButton
-               title="Get on iPhone" 
-               Icon="/Vector.svg" />
+            {/* Right Side */}
+            <div className="flex-1 md:ml-4 md:text-left mb-4 md:mb-0">
+              <p className="text-lg md:text-3xl mb-4 text-fontColor">Welcome to seamless centralized banking. <br/>Manage and track all your cards in one app.</p>
+              <div className="flex justify-center md:justify-start gap-10">
+                <CustomButton title="Get on Android" Icon="/playstore-svgrepo-com 1.svg" />
+                <CustomButton title="Get on iPhone" Icon="/Vector.svg" />
+              </div>
             </div>
           </div>
-        </div>
-
-        <div>
-          <Image
-            src="/Mockups.svg"
-            alt="mock-up"
-            width={2500}
-            height={2500}
-          />
-        </div>
-      </div>
-    </main>
-  );
+          {/* Full Width Image */}
+          <div className="mt-4">
+            <Image
+              src="/Mockups.svg"
+              alt="analyticSreen"
+              width={500}
+              height={500}
+              className="w-full h-auto"
+            />
+          </div>
+        </section>
+      );
 };
 
 export default Hero;

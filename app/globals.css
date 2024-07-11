@@ -18,8 +18,8 @@ body {
   @apply text-fontColor; 
 }
 
-.custom-btn{
-@apply flex flex-row items-center justify-between px-6 py-3 text-fontColor rounded-full bg-buttonBlue;
+.custom-btn {
+  @apply flex items-center gap-2 px-6 py-3 text-fontColor rounded-full bg-buttonBlue whitespace-nowrap;
 }
 .border{
   @apply text-borderLine

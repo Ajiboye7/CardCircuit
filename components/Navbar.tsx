@@ -73,15 +73,15 @@ const Navbar = () => {
         <Link href="/">
           <div className="flex flex-row items-center">
             <Image src="/Logo.svg" alt="logo" width={50} height={50} className="w-12 h-12 md:w-16 md:h-16" />
-            <h2 className="text-fontColor text-xl md:text-2xl px-2 md:px-5">Card Circuit</h2>
+            <h2 className="text-fontColor text-xl md:text-2xl px-2 md:px-5 flex-shrink-0">Card Circuit</h2>
           </div>
         </Link>
       </div>
-      <div className="hidden md:flex space-x-6 bg-linkBg p-6 rounded-full">
+      <div className="hidden md:flex space-x-6 bg-linkBg p-6 rounded-full mr-3">
         <Link href="/" className="text-fontColor hover:text-blue-800">Home</Link>
         <Link href="/features" className="text-fontColor hover:text-blue-800">Features</Link>
         <Link href="/stories" className="text-fontColor hover:text-blue-800">Stories</Link>
-        <Link href="/about-us" className="text-fontColor hover:text-blue-800">About Us</Link>
+        <Link href="/about-us" className="text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
       </div>
       <div className="hidden md:flex">
         <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />

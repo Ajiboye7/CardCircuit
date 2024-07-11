@@ -5,9 +5,9 @@ const Features = () => {
   return (
     <div className="container  max-w-[1400px] mx-auto p-4 ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="card-one bg-gray-200 p-4 rounded-3xl pl-12 relative group overflow-hidden">
-          <div className="card-content flex flex-col">
-            <h2 className="text-blue-600 text-7xl">
+        <div className="card-one bg-gray-200 p-4 rounded-3xl pl-12 relative group overflow-hidden ">
+          <div className="card-content flex flex-col flex-wrap">
+            <h2 className="text-blue-600 text-7xl ">
               <span className="font-bold">Centralize</span> Your Chaos
             </h2>
             <p className="text-blue-400 mt-2 text-3xl">
@@ -31,7 +31,7 @@ const Features = () => {
 
         <div className="card-two bg-buttonBlue p-4 rounded-3xl">
           <div className="card-content flex flex-col">
-            <h2 className="text-fontColor text-7xl font-bold">
+            <h2 className="text-fontColor font-bold text-2xl md:text-5xl lg:text-6xl xl:text-7xl">
               Spend Smarter with CardCircuit
             </h2>
             <p className="text-fontColor mt-2 text-2xl">
@@ -51,6 +51,29 @@ const Features = () => {
             </div>
           </div>
         </div>
+
+        {/*<div className="card-two bg-buttonBlue p-4 rounded-3xl">
+          <div className="card-content flex flex-col items-center text-center md:text-left">
+            <h2 className="text-fontColor text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">
+              Spend Smarter with CardCircuit
+            </h2>
+            <p className="text-fontColor mt-2 text-lg md:text-xl lg:text-2xl xl:text-2xl">
+              Categorize your expenses, track trends, <br />
+              and get personalized <br />
+              insights. Make informed decisions <br />
+              and save more every day.
+            </p>
+            <div className="mt-4">
+              <Image
+                src="/Analytics Screen MS 1.svg"
+                alt="analyticSreen"
+                width={500}
+                height={500}
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>*/}
 
         <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2">
           <div className="card-content grid md:grid-cols-2 gap-4">
@@ -114,3 +137,37 @@ export default Features;
     
     */
 }
+
+/*import Image from "next/image";
+import CustomButton from "./CustomButton";
+
+export default function Section() {
+  return (
+    <section className="container max-w-[1400px] mx-auto p-4">
+      <div className="flex flex-col md:flex-row items-center border-solid border-4 border-light-blue-500">
+        {/* Left Side 
+        <div className="flex-1 md:mr-4 ml-4 md:text-left mb-4 md:mb-0">
+          <h1 className="text-2xl md:text-5xl font-bold mb-4 text-fontColor ">Simplify Your Wallet.<br />Unify Your Finances.</h1>
+        </div>
+        {/* Right Side
+        <div className="flex-1 md:ml-4 md:text-left mb-4 md:mb-0">
+          <p className="text-lg md:text-3xl mb-4 text-fontColor">Welcome to seamless centralized banking. <br/>Manage and track all your cards in one app.</p>
+          <div className="flex justify-center md:justify-start gap-10">
+            <CustomButton title="Get on Android" Icon="/playstore-svgrepo-com 1.svg" />
+            <CustomButton title="Get on iPhone" Icon="/Vector.svg" />
+          </div>
+        </div>
+      </div>
+      {/* Full Width Image 
+      <div className="mt-4">
+        <Image
+          src="/Mockups.svg"
+          alt="analyticSreen"
+          width={500}
+          height={500}
+          className="w-full h-auto"
+        />
+      </div>
+    </section>
+  );
+}*/

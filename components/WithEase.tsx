@@ -22,19 +22,19 @@ const WithEase = () => {
         alt="Main Image"
         width={500}
         height={500}
-        className="relative z-10"
+        className="relative z-10 w-full h-auto"
       />
 
-      {/* Small Image 1 */}
+      
       <Image
         src="/Card (1).svg"
         alt="Small Image 1"
-        width={100}
-        height={100}
-        className="absolute top-0 left-0 transform -translate-x-1/4 -translate-y-1/4 z-0"
+        width={300}
+        height={300}
+        className="absolute  transform -translate-x-1/4 -translate-y-1/4 z-10 lg:top-10 left-15 xl:top-14 "
       />
 
-      {/* Small Image 2 */}
+      
       <Image
         src="/Card (1).svg"
         alt="Small Image 2"
@@ -43,7 +43,7 @@ const WithEase = () => {
         className="absolute right-0 top-1/2 transform translate-x-1/4 -translate-y-1/2 z-0"
       />
 
-      {/* Small Image 3 */}
+      
       <Image
         src="/Card (1).svg"
         alt="Small Image 3"
@@ -51,9 +51,49 @@ const WithEase = () => {
         height={100}
         className="absolute bottom-0 left-0 transform -translate-x-1/4 translate-y-1/4 z-0"
       />
-    </div>
+    </div> 
   </section>
   );
 }
 
 export default WithEase;
+
+{/*
+    
+    <div className="right lg:w-1/2 relative flex justify-center items-center">
+      <Image
+        src="/Add Card V3 M 1.svg"
+        alt="Main Image"
+        width={500}
+        height={500}
+        className="relative z-10 w-full h-auto"
+      />
+
+      
+      <Image
+        src="/Card (1).svg"
+        alt="Small Image 1"
+        width={300}
+        height={300}
+        className="absolute top-0 left-0 transform -translate-x-1/4 -translate-y-1/4 z-0 "
+      />
+
+      
+      <Image
+        src="/Card (1).svg"
+        alt="Small Image 2"
+        width={100}
+        height={100}
+        className="absolute right-0 top-1/2 transform translate-x-1/4 -translate-y-1/2 z-0"
+      />
+
+      
+      <Image
+        src="/Card (1).svg"
+        alt="Small Image 3"
+        width={100}
+        height={100}
+        className="absolute bottom-0 left-0 transform -translate-x-1/4 translate-y-1/4 z-0"
+      />
+    </div> 
+    */}

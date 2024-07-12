@@ -7,8 +7,8 @@ import WithEase from "@/components/WithEase";
 export default function Home() {
   return (
     <main>
-      <Hero />
-      {/*<TextWithBackground/>*/}
+      {/*<Hero />
+      <TextWithBackground/>*/}
       <Features/>
       <WithEase/>
     </main>

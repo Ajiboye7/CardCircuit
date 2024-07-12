@@ -108,15 +108,15 @@ const Features = () => {
     <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2 ">
     <div className="card-content flex flex-col md:flex-row items-center gap-3 px-10">
       <div className="card-content-left flex-1 ">
-        <h2 className="text-fontColor mb-11 text-2xl md:text-5xl  md:mb-0 font-bold xl:text-7xl" style={{ lineHeight:"5rem" }}>
+        <h2 className="text-fontColor  md:mb-11 text-5xl md:text-5xl md:text-yellow-500 lg:text-6xl lg:text-red-300 font-bold xl:text-7xl xl:text-orange-800 ">
           Swift Transfer, Instant Control
         </h2>
-        <p className="text-fontColor md:text-2xl mt-5 mb-5 text-xl lg:text-3xl leading-extra-loose" /*style={{ lineHeight:"3rem" }}*/ >
+        <p className="text-fontColor leading-loose md:leading-extra-loose text-xl md:text-2xl mt-5 mb-5 lg:text-3xl lg:leading-extra-extra-loose ">
           Move money effortlessly between your cards with CardCircuit's
           lightning-quick transfers. Say goodbye to waiting and hello to
           instant financial flexibility.
         </p>
-        <div className="main-button flex flex-col md:flex-row gap-3">
+        <div className="main-button flex flex-row justify-center gap-3">
           <CustomButton
             title="Get on Android"
             Icon="/playstore-svgrepo-com 1.svg"
@@ -130,7 +130,7 @@ const Features = () => {
           alt="image7"
           width={500}
           height={500}
-          className="w-full"
+          className="md:w-full "
           /*className="lg:w-full h-auto m-0"*/
         />
       </div>

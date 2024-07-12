@@ -9,20 +9,26 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      width:{
-        '600' :'600px',
+      width: {
+        '600': '600px',
       },
       colors: {
         buttonBlue: '#3555F5',
         customBg: '#030B11',
         linkBg: '#808B961A',
         fontColor: '#F0F0F0',
-        borderLine: ' #3555F5',
-        cardThreeBg :  '#304DDE'
+        borderLine: '#3555F5',
+        cardThreeBg: '#304DDE'
       },
-      backgroundImage:{
+      backgroundImage: {
         'hero-bg': "url('/Header Background.svg')"
-      }
+      },
+      lineHeight: {
+        'extra-loose': '2.5rem',
+        'extra-extra-loose': '3rem',
+        'slightly-loose': '1.75rem',
+      },
+      
     },
   },
   plugins: [],

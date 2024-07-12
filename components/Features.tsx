@@ -101,13 +101,17 @@ const Features = () => {
         </div>
       </div>
     </div>*/}
-    <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2">
+
+
+
+    
+    <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2 ">
     <div className="card-content flex flex-col md:flex-row items-center gap-3 px-10">
-      <div className="card-content-left flex-1">
-        <h2 className="text-fontColor mb-11 text-2xl md:text-5xl font-bold xl:text-7xl leading-tight">
+      <div className="card-content-left flex-1 ">
+        <h2 className="text-fontColor mb-11 text-2xl md:text-5xl  md:mb-0 font-bold xl:text-7xl" style={{ lineHeight:"5rem" }}>
           Swift Transfer, Instant Control
         </h2>
-        <p className="text-fontColor mt-2 mb-12 text-xl md:text-2xl">
+        <p className="text-fontColor md:text-2xl mt-5 mb-5 text-xl lg:text-3xl leading-extra-loose" /*style={{ lineHeight:"3rem" }}*/ >
           Move money effortlessly between your cards with CardCircuit's
           lightning-quick transfers. Say goodbye to waiting and hello to
           instant financial flexibility.
@@ -120,13 +124,14 @@ const Features = () => {
           <CustomButton title="Get on iPhone" Icon="/Vector.svg" />
         </div>
       </div>
-      <div className="card-content-right flex-1 mt-6 md:mt-0">
+      <div className="card-content-right flex-1 mt-6 border-solid border-4 border-light-blue-500">
         <Image
           src="/image 7.svg"
           alt="image7"
-          width={400}
-          height={400}
-          className="w-full h-1/2 m-0"
+          width={500}
+          height={500}
+          className="w-full"
+          /*className="lg:w-full h-auto m-0"*/
         />
       </div>
     </div>

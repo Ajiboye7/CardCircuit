@@ -108,7 +108,7 @@ const Features = () => {
 
 
     
-    <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2 ">
+    <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2 h-full ">
     <div className="card-content flex flex-col md:flex-col lg:flex-row items-center gap-3 px-10">
       <div className="card-content-left flex-1 ">
         <h2 className="text-fontColor  md:mb-11 text-4xl md:text-5xl md:text-yellow-500 lg:text-6xl lg:text-red-300 font-bold xl:text-7xl xl:text-orange-800 ">
@@ -131,13 +131,13 @@ const Features = () => {
           textStyles="text-2xl"/>
         </div>
       </div>
-      <div className="card-content-right flex-1 mt-6 border-solid border-4 border-light-blue-500">
+      <div className="card-content-right flex-1 mt-6 border-solid border-4 border-light-blue-500 h-1/2">
         <Image
           src="/image 7.svg"
           alt="image7"
           width={500}
           height={500}
-          className="md:w-full"
+          className="md:w-full "
           /*className="lg:w-full h-auto m-0"*/
         />
       </div>

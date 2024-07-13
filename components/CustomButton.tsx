@@ -3,7 +3,7 @@ import { CustomButtonProps } from "../types/index";
 
 const Button = ({ title, containerStyles, Icon, textStyles }: CustomButtonProps) => (
   <div>
-    <button type="submit" className={`custom-btn flex items-center gap-2 ${containerStyles}`}>
+    <button type="submit" className={`custom-btn flex items-center gap-2  ${containerStyles}`}>
       <span className={ `  ${textStyles}`}>{title}</span>
       {Icon && (
         <div className="flex-shrink-0">

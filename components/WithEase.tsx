@@ -40,7 +40,7 @@ const WithEase = () => {
         alt="Small Image 2"
         width={100}
         height={100}
-        className="absolute w-40 sm:hidden right-24 top-1/2 transform translate-x-1/4 -translate-y-1/2 z-0 lg:w-36 "
+        className="absolute w-40 sm:hidden right-24 top-1/2 transform translate-x-1/4 -translate-y-1/2 z-0 lg:w-36"
       />
 
       
@@ -49,7 +49,7 @@ const WithEase = () => {
         alt="Small Image 3"
         width={100}
         height={100}
-        className="absolute top-72 bottom-38 w-40 sm:hidden lg:bottom-38 xl:bottom-40 xl:left-50 transform -translate-x-1/4 translate-y-1/4 z-0 lg:w-36"
+        className="absolute top-64 bottom-38 w-40 sm:hidden lg:bottom-38 xl:bottom-40 xl:left-50 transform -translate-x-1/4 translate-y-1/4 z-0 lg:w-36"
       />
     </div> 
   </section>

@@ -18,7 +18,8 @@ const config: Config = {
         linkBg: '#808B961A',
         fontColor: '#F0F0F0',
         borderLine: '#3555F5',
-        cardThreeBg: '#304DDE'
+        cardThreeBg: '#304DDE',
+        textBg : '#5970BF33'
       },
       backgroundImage: {
         'hero-bg': "url('/Header Background.svg')"
@@ -28,7 +29,9 @@ const config: Config = {
         'extra-extra-loose': '3rem',
         'slightly-loose': '1.3',
       },
-      
+      fontSize: {
+        'big': '9rem',
+      },
     },
   },
   plugins: [],

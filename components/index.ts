@@ -3,6 +3,7 @@ import Button from "./CustomButton"
 import Hero from "./Hero";
 import TextWithBackground from "./TextWithBackground";
 import Features from "./Features";
+import TestimonialCard from "./TestimonialCard";
 
 export{
     Navbar,
@@ -10,4 +11,5 @@ export{
     Hero,
     TextWithBackground,
     Features,
+    TestimonialCard,
 };

@@ -6,3 +6,14 @@ export interface CustomButtonProps{
     textStyles?: string
     Icon: string
 }
+export interface TestimonialProps {
+    id: number;
+    name: string;
+    profession: string;
+    skill: string;
+    testimony: string;
+    img: string;
+    alt: string;
+    
+  }
+  

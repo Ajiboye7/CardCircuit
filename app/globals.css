@@ -17,6 +17,9 @@ body {
 .default-color {
   @apply text-fontColor; 
 }
+.textBackground{
+  @apply text-textBg;
+}
 
 .custom-btn {
   @apply flex items-center gap-2 px-9 py-5 text-fontColor rounded-lg bg-buttonBlue whitespace-nowrap;

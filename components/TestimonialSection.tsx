@@ -1,12 +1,12 @@
 import React from 'react';
-import { Testimonial } from '@/constants';
 import {TestimonialCard} from '@/components'
+import { Testimonial } from '@/constants';
  
 const TestimonialSection = () => {
   return (
     <div className="flex flex-wrap justify-center py-12">
-    {Testimonial.map((testimonial:any) => (
-      <TestimonialCard key={testimonial.id} testimonial={testimonial} />
+    {Testimonial?.map((testimonial) => (
+      <TestimonialCard key={testimonial.id}testimonial={testimonial} />
     ))}
   </div>
   );

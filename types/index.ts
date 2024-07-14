@@ -7,6 +7,7 @@ export interface CustomButtonProps{
     Icon: string
 }
 export interface TestimonialProps {
+    testimonial:{
     id: number;
     name: string;
     profession: string;
@@ -14,6 +15,6 @@ export interface TestimonialProps {
     testimony: string;
     img: string;
     alt: string;
-    
+    }
   }
   

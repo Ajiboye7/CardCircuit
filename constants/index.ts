@@ -1,6 +1,6 @@
 import { TestimonialProps } from "@/types"
 
-export const Testimonial:TestimonialProps[] = [
+export const Testimonial/*:TestimonialProps[]*/ = [
     {
         id: 1,
         name:"Chijoie Okoye",

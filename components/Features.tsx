@@ -109,8 +109,8 @@ const Features = () => {
 
     
     <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2 h-full ">
-    <div className="card-content flex flex-col md:flex-col lg:flex-row items-center gap-3 px-10">
-      <div className="card-content-left flex-1 ">
+    <div className="card-contents flex flex-col lg:flex-row items-center gap-3 px-10 ">
+      <div className="card-content-left flex-1 w-full flex-wrap border-solid border-4 border-light-blue-500">
         <h2 className="text-fontColor  md:mb-11 text-4xl md:text-5xl md:text-yellow-500 lg:text-6xl lg:text-red-300 font-bold xl:text-7xl xl:text-orange-800 ">
           Swift Transfer, Instant Control
         </h2>
@@ -119,7 +119,7 @@ const Features = () => {
           lightning-quick transfers. Say goodbye to waiting and hello to
           instant financial flexibility.
         </p>
-        <div className="main-button flex items-center flex-col gap-2 md:flex-row justify-center md:gap-5 lg:gap-4  ">
+        <div className="main-button flex items-center  gap-2 lg:flex-row justify-center md:gap-5 lg:gap-4 flex-nowrap">
           <CustomButton
             title="Get on Android"
             Icon="/playstore-svgrepo-com 1.svg"
@@ -131,13 +131,13 @@ const Features = () => {
           textStyles="text-2xl"/>
         </div>
       </div>
-      <div className="card-content-right flex-1 mt-6 border-solid border-4 border-light-blue-500 h-1/2">
+      <div className="card-content-right flex-1 mt-6 border-solid border-4 border-light-blue-500 md:h-1/2 w-full md:w-full">
         <Image
           src="/image 7.svg"
           alt="image7"
-          width={500}
-          height={500}
-          className="md:w-full "
+          width={100}
+          height={100}
+          className="md:w-full h-1/2 "
           /*className="lg:w-full h-auto m-0"*/
         />
       </div>

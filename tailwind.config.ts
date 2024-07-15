@@ -27,6 +27,7 @@ const config: Config = {
       lineHeight: {
         'extra-loose': '2.5rem',
         'extra-extra-loose': '3rem',
+        'sm-loose' : '1.5',
         'slightly-loose': '1.3',
       },
       fontSize: {

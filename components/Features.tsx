@@ -109,17 +109,17 @@ const Features = () => {
 
     
     <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2">
-    <div className="card-contents flex flex-col lg:flex-row items-center gap-3 px-10">
-      <div className="card-content-left flex-1 w-full flex-wrap border-solid border-4 border-light-blue-500 p-5">
+    <div className="card-contents flex flex-col lg:flex-row items-center gap-3 px-2 pt-5 sm:px-10 sm:pt-10 ">
+      <div className="card-content-left flex-1 w-full flex-wrap p-5">
         <h2 className="text-fontColor md:mb-11 text-3xl sm:text-4xl md:text-5xl md:text-yellow-500 lg:text-6xl lg:text-red-300 font-bold xl:text-7xl xl:text-orange-800 ">
           Swift Transfer, Instant Control
         </h2>
-        <p className="text-fontColor text-2xl leading-sm-loose sm:leading-loose md:leading-extra-loose  md:text-2xl mt-5 mb-5 lg:text-2xl lg:leading-extra-extra-loose ">
+        <p className="text-fontColor font-light sm:font-normal text-2xl leading-sm-loose sm:leading-loose md:leading-extra-loose sm:text-2xl md:text-2xl mt-5 mb-5 lg:text-2xl lg:leading-extra-extra-loose ">
           Move money effortlessly between your cards with CardCircuit's
           lightning-quick transfers. Say goodbye to waiting and hello to
           instant financial flexibility.
         </p>
-        <div className="main-button flex items-center  gap-2 lg:flex-row justify-center md:gap-5 lg:gap-4 flex-nowrap">
+        <div className="main-button flex flex-col gap-5 items-center sm:gap-2 sm:flex-row  md:gap-5 lg:gap-4 flex-nowrap">
           <CustomButton
             title="Get on Android"
             Icon="/playstore-svgrepo-com 1.svg"

@@ -22,7 +22,7 @@ body {
 }
 
 .custom-btn {
-  @apply flex items-center gap-2 px-9 py-5 text-fontColor rounded-lg bg-buttonBlue whitespace-nowrap;
+  @apply flex items-center gap-2 px-5 sm:px-9 py-5 text-fontColor rounded-lg bg-buttonBlue whitespace-nowrap;
 }
 .border{
   @apply text-borderLine

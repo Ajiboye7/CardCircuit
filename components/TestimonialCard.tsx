@@ -8,7 +8,7 @@ interface TestimonialCardProps {
 
 const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
   return (
-    <div className="relative group w-[500px] h-[700px] m-4 overflow-hidden rounded-3xl">
+    <div className="relative group w-[500px] sm:h-[700px] m-4 h-[450px] overflow-hidden rounded-3xl">
       {/* Parent Card with background image */}
       <Image
         src={testimonial.img}
@@ -19,8 +19,8 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
       />
 
       {/* Smaller Card */}
-      <div className="absolute  bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg bg-opacity-70 w-[450px] h-56 rounded-3xl shadow-lg">
-        <div className="flex flex-col gap ">
+      <div className="absolute  bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg bg-opacity-70 w-[350px] sm:w-[450px] h-56 rounded-3xl shadow-lg">
+        <div className="flex flex-col gap-3 ">
           <div className="flex items-center mt-5">
             <Image
               src="/Stars.svg" // star image path
@@ -35,12 +35,12 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
           <p className="text-2xl mb-1 text-fontColor ">
             {testimonial.profession}
           </p>
-          <p className="text-lg ">{testimonial.skill}</p>
+          <p className="text-lg text-fontColor">{testimonial.skill}</p>
         </div>
       </div>
 
       {/* Pop-up card*/}
-      <div className="absolute bottom-6 left-1/2 bg-opacity-70 transform -translate-x-1/2 translate-y-0 group-hover:-translate-y-52 transition-transform duration-500 opacity-0 group-hover:opacity-100 ease-in-out w-[450px] h-auto bg-testimonialCardBg p-6 rounded-t-3xl shadow-lg flex flex-col justify-center items-center text-center z-0">
+      <div className="absolute bottom-6 left-1/2 bg-opacity-70 transform -translate-x-1/2 translate-y-0 group-hover:-translate-y-52 transition-transform duration-500 opacity-0 group-hover:opacity-100 ease-in-out w-[350px] sm:w-[450px] h-auto bg-testimonialCardBg p-6 rounded-t-3xl shadow-lg flex flex-col justify-center items-center text-center z-0">
         <p className="text-2xl text-fontColor font-bold">{testimonial.testimony}</p>
       </div>
     </div>

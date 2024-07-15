@@ -19,10 +19,12 @@ const config: Config = {
         fontColor: '#F0F0F0',
         borderLine: '#3555F5',
         cardThreeBg: '#304DDE',
-        textBg : '#5970BF33'
+        textBg : '#5970BF33',
+        testimonialCardBg: '#808B96'
       },
       backgroundImage: {
-        'hero-bg': "url('/Header Background.svg')"
+        'hero-bg': "url('/Header Background.svg')",
+        'testimonial-card': 'linear-gradient(to bottom, #808B96, transparent)',
       },
       lineHeight: {
         'extra-loose': '2.5rem',

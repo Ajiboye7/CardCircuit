@@ -131,7 +131,7 @@ const Features = () => {
           textStyles="text-2xl"/>
         </div>
       </div>
-      <div className="card-content-right flex-1 w-full ">
+      <div className="card-content-right flex-1 w-full h-[600px] ">
         <Image
           src="/image 7.svg"
           alt="image7"

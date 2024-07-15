@@ -33,6 +33,9 @@ body {
 .card3bg{
   @apply bg-cardThreeBg
 }
+.test-bg{
+  @apply bg-testimonialCardBg
+}
 
 
 

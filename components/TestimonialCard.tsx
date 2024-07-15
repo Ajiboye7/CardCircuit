@@ -8,38 +8,42 @@ interface TestimonialCardProps {
 
 const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
   return (
-    <div className="relative group w-80 h-96 m-4 ">
-    {/* Parent Card with background image */}
-    <Image
-      src={testimonial.img}
-      alt={testimonial.alt}
-      layout="fill"
-      objectFit="cover"
-      className="absolute inset-0 z-0"
-    />
-    
-    {/* Smaller Card */}
-    {/*<div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-white bg-opacity-70 w-64 rounded-lg shadow-lg">
-      <div className="flex items-center mb-2">
-        <Image
-          src="/Stars.svg" // star image path
-          alt="5 stars"
-          width={100}
-          height={20}
-        />
-      </div>
-      <h3 className="text-xl font-bold mb-1 text-fontColor">
-        {testimonial.name}
-      </h3>
-      <p className="text-sm mb-1">{testimonial.profession}</p>
-      <p className="text-sm">{testimonial.skill}</p>
-    </div>*/}
+    <div className="relative group w-[500px] h-[700px] m-4 overflow-hidden rounded-3xl">
+      {/* Parent Card with background image */}
+      <Image
+        src={testimonial.img}
+        alt={testimonial.alt}
+        layout="fill"
+        objectFit="cover"
+        className="absolute inset-0 z-0"
+      />
 
-    {/* Pop-up card */}
-    <div className="absolute bottom-4 h-56 left-1/2 transform -translate-x-1/2 translate-y-1 group-hover:translate-y-0 transition-transform duration-500 ease-in-out w-96  bg-white bg-opacity-90 p-6 rounded-lg shadow-lg flex flex-col justify-center items-center text-center z-0">
-      <p className="text-lg">{testimonial.testimony}</p>
+      {/* Smaller Card */}
+      <div className="absolute  bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg bg-opacity-70 w-[450px] h-56 rounded-3xl shadow-lg">
+        <div className="flex flex-col gap ">
+          <div className="flex items-center mt-5">
+            <Image
+              src="/Stars.svg" // star image path
+              alt="5 stars"
+              width={150}
+              height={20}
+            />
+          </div>
+          <h3 className="text-4xl font-bold  text-fontColor">
+            {testimonial.name}
+          </h3>
+          <p className="text-2xl mb-1 text-fontColor ">
+            {testimonial.profession}
+          </p>
+          <p className="text-lg ">{testimonial.skill}</p>
+        </div>
+      </div>
+
+      {/* Pop-up card*/}
+      <div className="absolute bottom-6 left-1/2 bg-opacity-70 transform -translate-x-1/2 translate-y-0 group-hover:-translate-y-52 transition-transform duration-500 opacity-0 group-hover:opacity-100 ease-in-out w-[450px] h-auto bg-testimonialCardBg p-6 rounded-t-3xl shadow-lg flex flex-col justify-center items-center text-center z-0">
+        <p className="text-2xl text-fontColor font-bold">{testimonial.testimony}</p>
+      </div>
     </div>
-  </div>
   );
 };
 

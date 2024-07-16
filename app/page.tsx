@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Hero,} from "@/components";
+import { AsFeaturedIn,GetStarted ,Hero,} from "@/components";
 import { TextWithBackground } from "@/components";
 import { Features } from "@/components";
 import WithEase from "@/components/WithEase";
@@ -13,6 +13,8 @@ export default function Home() {
       <Features/>
       <WithEase/>
       <TestimonialSection/>
+      <AsFeaturedIn/>
+      <GetStarted/>
     </main>
   );
 }

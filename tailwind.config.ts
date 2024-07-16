@@ -1,5 +1,6 @@
 import { url } from 'inspector';
 import type { Config } from 'tailwindcss';
+import { GetStarted } from './components';
 
 const config: Config = {
   content: [
@@ -20,7 +21,8 @@ const config: Config = {
         borderLine: '#3555F5',
         cardThreeBg: '#304DDE',
         textBg : '#5970BF33',
-        testimonialCardBg: '#808B96'
+        testimonialCardBg: '#808B96',
+        GetStartedTextFont:'#585F81',
       },
       backgroundImage: {
         'hero-bg': "url('/Header Background.svg')",

@@ -36,7 +36,9 @@ body {
 .test-bg{
   @apply bg-testimonialCardBg
 }
-
+.get-started-font{
+  @apply text-GetStartedTextFont
+}
 
 
 

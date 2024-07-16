@@ -8,7 +8,7 @@ import TestimonialSection from "@/components/TestimonialSection";
 export default function Home() {
   return (
     <main>
-      {/*<Hero />*/}
+      <Hero />
       <TextWithBackground/>
       <Features/>
       <WithEase/>

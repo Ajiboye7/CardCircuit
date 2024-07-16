@@ -5,6 +5,9 @@ export interface CustomButtonProps{
     containerStyles ?: string
     textStyles?: string
     Icon: string
+    imageStyle?:string
+    line1Styles?:string
+    line2Styles? :string
 }
 export interface TestimonialProps {
     testimonial:{

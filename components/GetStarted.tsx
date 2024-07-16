@@ -9,9 +9,10 @@ const GetStarted = () => {
       <p className="text-GetStartedTextFonts text-3xl font-light">Ready to revolutionize how you manage your money? Take the leap towards effortless money management with CardCircuit. Join us now and experience the future of centralized finance.</p>
       <div className="flex gap-7">
       <CustomButton
-            title="Get on Android"
+            title="Get it on<br> Google Play"
             Icon="/playstore-svgrepo-com 1.svg"
             textStyles="text-2xl"
+            containerStyles="flex flex-"
           />
           <CustomButton 
           title="Get on iPhone" 

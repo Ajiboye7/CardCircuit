@@ -1,21 +1,29 @@
 import Image from "next/image";
 import { CustomButtonProps } from "../types/index";
 
-const Button = ({ title, containerStyles, Icon, textStyles }: CustomButtonProps) => (
-  <div>
-    <button type="submit" className={`custom-btn flex items-center gap-2  ${containerStyles}`}>
-      <span className={ `  ${textStyles}`}>{title}</span>
-      {Icon && (
-        <div className="flex-shrink-0">
-          <Image src={Icon} alt="arrow_right" width={20} height={20}/>
+const Button = ({ title, containerStyles, Icon, textStyles }: CustomButtonProps) => {
+  const titleLines = title.split('<br>');
+
+  return (
+    <div>
+      <button type="submit" className={`custom-btn flex items-center gap-2 ${containerStyles}`}>
+        <div className={textStyles}>
+          {titleLines.map((line, index) => (
+            <div key={index}>{line}</div>
+          ))}
         </div>
-      )}
-     
-     
-    </button>
-  </div>
-);
+        {Icon && (
+          <div className="flex-shrink-0">
+            <Image src={Icon} alt="icon" width={20} height={20} />
+          </div>
+        )}
+      </button>
+    </div>
+  );
+};
+
 export default Button;
+
 
 /*import Image from "next/image";
 import { CustomButtonProps } from "../types/index";

@@ -16,5 +16,5 @@ export{
     TestimonialCard,
     AsFeaturedIn,
     GetStarted,
-    
+    Footer,
 };

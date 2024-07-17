@@ -39,3 +39,7 @@ export const Testimonial/*:TestimonialProps[]*/ = [
         alt: "Emeka Nwanko"
     },
 ]
+
+export const Footer =[ 
+    
+]

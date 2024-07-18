@@ -36,6 +36,7 @@ const config: Config = {
       },
       fontSize: {
         'big': '9rem',
+        'footerLinkFont':'1.3rem',
       },
     },
   },

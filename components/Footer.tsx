@@ -8,13 +8,13 @@ const Footer = () => {
   return (
     <footer>
       <div className="content flex flex-col">
-        <div className="top flex flex-row justify-between flex-wrap gap-5">
-          <div className="left">
+        <div className="top flex flex-row justify-between  flex-wrap gap-5">
+          <div className="left items-center">
             <div className="logo flex items-center gap-3">
-              <Image src="/Logo.svg" alt="logo" width={50} height={50} />
-              <h2 className="text-fontColor">CardCircuit</h2>
+              <Image src="/Logo.svg" alt="logo" width={80} height={80} />
+              <h2 className="text-fontColor text-3xl font-bold">CardCircuit</h2>
             </div>
-            <p className="text-fontColor">
+            <p className="text-fontColor text-footerLinkFont py-7">
               Discover seamless financial <br /> freedom with CardCircuit.
               Elevate your
               <br />
@@ -43,13 +43,31 @@ const Footer = () => {
               <Image src="/Twitter.svg" alt="twitter" width={40} height={40} />
             </div>
           </div>
-          {FooterLinks.map((column) => (
+          {FooterLinks.map((column, columnIndex) => (
             <div key={column.title} className="title">
-              <h3 className="text-fontColor">{column.title}</h3>
+              <h3 className="text-fontColor text-3xl font-bold pb-5">
+                {column.title}
+              </h3>
               <ul className="links text-fontColor">
-                {column.links.map((link) => (
-                  <li key={link.title} className="footerLinks">
-                    <Link href={link.url}>{link.title}</Link>
+                {column.links.map((link, linkIndex) => (
+                  <li
+                    key={link.title}
+                    className="footerLinks text-footerLinkFont py-2"
+                  >
+                    {columnIndex === FooterLinks.length - 1 &&
+                    linkIndex === column.links.length - 1 ? (
+                      <Link href={link.url} className="flex gap-3">
+                        {link.title}{" "}
+                        <Image 
+                        src="/Arrow Right.svg" 
+                        alt="arrow-right" 
+                        width={20}
+                        height={20}
+                        />
+                      </Link>
+                    ) : (
+                      <Link href={link.url}>{link.title}</Link>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -57,7 +75,7 @@ const Footer = () => {
           ))}
         </div>
         <div className="bottom text-fontColor">
-          <p>2023 CardCircuit. All rights reserved</p>
+          <p>&copy; 2023 CardCircuit. All rights reserved</p>
           <p>private policy| Terms and Conditions</p>
         </div>
       </div>

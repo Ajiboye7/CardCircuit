@@ -6,9 +6,9 @@ import { FooterLinks } from "@/constants";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="content flex flex-col">
-        <div className="top flex flex-row justify-between  flex-wrap gap-5">
+    <footer className="bg-FooterBackground w-full">
+      <div className="content flex flex-col max-w-[1400px] mx-auto p-10 h-[700px]">
+        <div className="top flex flex-row justify-between flex-wrap gap-5 mb-28">
           <div className="left items-center">
             <div className="logo flex items-center gap-3">
               <Image src="/Logo.svg" alt="logo" width={80} height={80} />
@@ -56,13 +56,13 @@ const Footer = () => {
                   >
                     {columnIndex === FooterLinks.length - 1 &&
                     linkIndex === column.links.length - 1 ? (
-                      <Link href={link.url} className="flex gap-3">
+                      <Link href={link.url} className="flex gap-3 items-center border-b-2 pb-4">
                         {link.title}{" "}
                         <Image 
                         src="/Arrow Right.svg" 
                         alt="arrow-right" 
-                        width={20}
-                        height={20}
+                        width={40}
+                        height={40}
                         />
                       </Link>
                     ) : (
@@ -74,9 +74,9 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className="bottom text-fontColor">
-          <p>&copy; 2023 CardCircuit. All rights reserved</p>
-          <p>private policy| Terms and Conditions</p>
+        <div className="bottom text-fontColor flex sm:justify-center lg:justify-between items-center flex-wrap gap-5 border-t-2 pt-8">
+          <p className="text-2xl">&copy; 2023 CardCircuit. All rights reserved</p>
+          <p className="text-2xl ">private policy | Terms and Conditions</p>
         </div>
       </div>
     </footer>

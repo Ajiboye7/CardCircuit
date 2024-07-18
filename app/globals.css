@@ -39,6 +39,9 @@ body {
 .get-started-font{
   @apply text-GetStartedTextFont
 }
+.footerBg{
+  @apply bg-FooterBackground
+}
 
 
 

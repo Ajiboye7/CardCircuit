@@ -23,6 +23,7 @@ const config: Config = {
         textBg : '#5970BF33',
         testimonialCardBg: '#808B96',
         GetStartedTextFont:'#585F81',
+        FooterBackground: '#1B2F82'
       },
       backgroundImage: {
         'hero-bg': "url('/Header Background.svg')",

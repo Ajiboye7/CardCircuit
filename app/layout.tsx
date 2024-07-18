@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components";
+import { Navbar,Footer} from "@/components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +20,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-customBg bg-hero-bg bg-right bg-no-repeat`}>
         <Navbar/>
         {children}
+        <Footer/>
         </body>
     </html>
   );

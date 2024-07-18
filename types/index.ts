@@ -20,8 +20,13 @@ export interface TestimonialProps {
     alt: string;
     }
   }
+
+  export interface FooterProps{
+    title:string
+  }
+
   
-  export interface Settings {
+  /*export interface Settings {
     dots?: boolean;
     infinite?: boolean;
     speed?: number;
@@ -30,5 +35,7 @@ export interface TestimonialProps {
     nextArrow?: JSX.Element;
     prevArrow?: JSX.Element;
     [key: string]: any;
-  }
+  }*/
+
+  
   

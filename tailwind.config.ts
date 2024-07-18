@@ -27,7 +27,8 @@ const config: Config = {
       },
       backgroundImage: {
         'hero-bg': "url('/Header Background.svg')",
-        'testimonial-card': 'linear-gradient(to bottom, #808B96, transparent)',
+        'footer-bg1':"url('/Group 9.svg')",
+        'footer-bg2' :"url('/Group 10.svg')",
       },
       lineHeight: {
         'extra-loose': '2.5rem',

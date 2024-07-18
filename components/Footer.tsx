@@ -7,14 +7,14 @@ import { FooterLinks } from "@/constants";
 const Footer = () => {
   return (
     <footer className="bg-FooterBackground w-full">
-      <div className="content flex flex-col max-w-[1400px] mx-auto p-10 h-[700px]">
+      <div className="content flex flex-col max-w-[1600px] mx-auto p-10 min-h-[1300px] lg:min-h-[1000px] justify-end">
         <div className="top flex flex-row justify-between flex-wrap gap-5 mb-28">
           <div className="left items-center">
             <div className="logo flex items-center gap-3">
               <Image src="/Logo.svg" alt="logo" width={80} height={80} />
               <h2 className="text-fontColor text-3xl font-bold">CardCircuit</h2>
             </div>
-            <p className="text-fontColor text-footerLinkFont py-7">
+            <p className="text-fontColor text-footerLinkFont py-7 leading-relaxed">
               Discover seamless financial <br /> freedom with CardCircuit.
               Elevate your
               <br />

@@ -68,23 +68,23 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex flex-row items-center justify-between p-4 w-full max-w-[1550px] mx-auto">
+    <nav className="flex flex-row items-center justify-between p-4 w-full max-w-[1550px] mx-auto bg-hero-bg bg-no-repeat">
       <div className="flex flex-row items-center">
         <Link href="/">
           <div className="flex flex-row items-center">
             <Image src="/Logo.svg" alt="logo" width={50} height={50} className="w-12 h-12 md:w-16 md:h-16" />
-            <h2 className="text-fontColor text-xl md:text-2xl px-2 md:px-5 flex-shrink-0">Card Circuit</h2>
+            <h2 className="text-fontColor font-bold text-xl md:text-3xl px-2 md:px-5 flex-shrink-0">CardCircuit</h2>
           </div>
         </Link>
       </div>
-      <div className="hidden md:flex space-x-6 bg-linkBg p-6 rounded-full mr-3">
-        <Link href="/" className="text-fontColor hover:text-blue-800">Home</Link>
-        <Link href="/features" className="text-fontColor hover:text-blue-800">Features</Link>
-        <Link href="/stories" className="text-fontColor hover:text-blue-800">Stories</Link>
-        <Link href="/about-us" className="text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
+      <div className="hidden md:flex items-center space-x-6 bg-linkBg p-6 rounded-full mr-3 h-24 w-auto">
+        <Link href="/" className="text-2xl text-fontColor hover:text-blue-800">Home</Link>
+        <Link href="/features" className="text-2xl text-fontColor hover:text-blue-800">Features</Link>
+        <Link href="/stories" className="text-2xl text-fontColor hover:text-blue-800">Stories</Link>
+        <Link href="/about-us" className="text-2xl text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
       </div>
       <div className="hidden md:flex">
-        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
+        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" imageStyle="w-12 h-12" />
       </div>
       <div className="md:hidden">
         <button onClick={() => setIsOpen(!isOpen)}>

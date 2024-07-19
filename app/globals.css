@@ -33,6 +33,9 @@ body {
 .card3bg{
   @apply bg-cardThreeBg
 }
+.card1-text{
+  @apply text-cardOneText
+}
 .test-bg{
   @apply bg-testimonialCardBg
 }
@@ -41,6 +44,9 @@ body {
 }
 .footerBg{
   @apply bg-FooterBackground
+}
+.ease-p{
+  @apply text-withEaseP
 }
 
 

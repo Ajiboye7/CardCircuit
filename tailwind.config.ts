@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         buttonBlue: '#3555F5',
+        cardOneText: '#526FFF',
         customBg: '#030B11',
         linkBg: '#808B961A',
         fontColor: '#F0F0F0',
@@ -23,12 +24,14 @@ const config: Config = {
         textBg : '#5970BF33',
         testimonialCardBg: '#808B96',
         GetStartedTextFont:'#585F81',
-        FooterBackground: '#1B2F82'
+        FooterBackground: '#1B2F82',
+        withEaseP: '#E3ECF4',
       },
       backgroundImage: {
         'hero-bg': "url('/Header Background.svg')",
         'footer-bg1':"url('/Group 9.svg')",
-        'footer-bg2' :"url('/Group 10.svg')",
+        'footer2' :"url('/Group 10.svg')",
+        'footer-bg-combined': "url('/Group 9.svg'), url('/Group 10.svg')",
       },
       lineHeight: {
         'extra-loose': '2.5rem',
@@ -39,6 +42,10 @@ const config: Config = {
       fontSize: {
         'big': '9rem',
         'footerLinkFont':'1.3rem',
+      },
+      borderRadius:{
+        'borderCurve': '5rem',
+        'lessCurve' : '4rem',
       },
     },
   },

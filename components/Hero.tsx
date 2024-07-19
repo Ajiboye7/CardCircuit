@@ -55,7 +55,7 @@ import CustomButton from "./CustomButton";
 const Hero = () => {
   return (
     <section className="container max-w-[1400px] mx-auto p-4">
-      <div className="flex flex-col md:flex-row md:items-center border-solid border-4 border-light-blue-500 pl-2 ">
+      <div className="flex flex-col md:flex-row md:items-center pl-2 bg-hero-bg bg-no-repeat">
         {/* Left Side */}
         <div className="flex-1 md:mr-4 ml-4 md:text-left mb-4 md:mb-0">
           <h1 className="text-3xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 text-fontColor ">
@@ -74,14 +74,14 @@ const Hero = () => {
             <CustomButton
               title="Get on Android"
               Icon="/playstore-svgrepo-com 1.svg"
-              textStyles="text-1xl"
+              textStyles="text-1xl sm:text-2xl"
               imageStyle="w-7 sm:w-10 md:w-7"
             />
 
             <CustomButton
               title="Get on iPhone"
               Icon="/Vector.svg"
-              textStyles="text-1xl"
+              textStyles="text-1xl sm:text-2xl"
               imageStyle="w-7 sm:w-8 md:w-7"
               containerStyles="gap-2"
             />
@@ -89,7 +89,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Full Width Image */}
-      <div className="mt-4">
+      <div className="mt-4 bg-hero-bg bg-no-repeat">
         <Image
           src="/Mockups.svg"
           alt="analyticSreen"

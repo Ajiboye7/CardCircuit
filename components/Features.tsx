@@ -5,13 +5,13 @@ const Features = () => {
   return (
     <div className="container  max-w-[1400px] mx-auto p-4 ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="card-one bg-gray-200 pr-4 pl-4 pt-4 rounded-3xl relative group overflow-hidden ">
+        <div className="card-one bg-gray-200 pr-4 pl-4 pt-4 rounded-borderCurve relative group overflow-hidden ">
           <div className="card-content flex flex-col">
           
-            <h2 className="text-fontColor font-bold mb-10 text-5xl md:text-5xl md:text-blue-500 lg:text-6xl lg:text-orange-800 xl:text-7xl xl:text-red-950 mt-10">
+            <h2 className="text-cardOneText font-bold mb-10 text-5xl md:text-5xl lg:text-6xl xl:text-7xl mt-10 ">
               <span className="font-bold">Centralize</span> Your Chaos
             </h2>
-            <p className="text-blue-400 mt-2 text-2xl leading-loose xl:text-4xl xl:leading-relaxed">
+            <p className="mt-2 text-2xl leading-loose xl:text-4xl xl:leading-relaxed text-GetStartedTextFont font-semibold ">
               Your entire financial universe in one
               app.Link cards, manage
               transactions, and stay on top of
@@ -30,12 +30,12 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="card-two bg-buttonBlue pr-4 pl-4 pt-4 rounded-3xl group overflow-hidden ">
+        <div className="card-two bg-buttonBlue pr-4 pl-4 pt-4 rounded-borderCurve group overflow-hidden ">
           <div className="card-content flex flex-col">
             <div>
               
             </div>
-            <h2 className="text-fontColor font-bold mt-10 mb-10 text-4xl md:text-4xl md:text-blue-500 lg:text-6xl lg:text-orange-800 xl:text-7xl xl:text-red-950">
+            <h2 className="text-fontColor font-bold mt-10 mb-10 text-4xl md:text-4xl  lg:text-6xl  xl:text-7xl">
               Spend Smarter<br/> with CardCircuit
             </h2>
             <p className="text-fontColor mt-2 text-2xl xl:text-4xl xl:leading-relaxed ">
@@ -108,10 +108,10 @@ const Features = () => {
 
 
     
-    <div className="card-three bg-cardThreeBg pt-8 rounded-3xl md:col-span-2">
+    <div className="card-three bg-cardThreeBg pt-8 rounded-borderCurve md:col-span-2">
     <div className="card-contents flex flex-col lg:flex-row items-center gap-3 px-2 pt-5 sm:px-10 sm:pt-10 ">
       <div className="card-content-left flex-1 w-full flex-wrap p-5">
-        <h2 className="text-fontColor md:mb-11 text-3xl sm:text-4xl md:text-5xl md:text-yellow-500 lg:text-6xl lg:text-red-300 font-bold xl:text-7xl xl:text-orange-800 ">
+        <h2 className="text-fontColor md:mb-11 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold xl:text-7xl ">
           Swift Transfer, Instant Control
         </h2>
         <p className="text-fontColor font-light sm:font-normal text-2xl leading-sm-loose sm:leading-loose md:leading-extra-loose sm:text-2xl md:text-2xl mt-5 mb-5 lg:text-2xl lg:leading-extra-extra-loose ">

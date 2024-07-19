@@ -7,7 +7,7 @@ import { FooterLinks } from "@/constants";
 const Footer = () => {
   return (
     <footer className="bg-FooterBackground w-full">
-      <div className="content flex flex-col max-w-[1600px] mx-auto p-10 min-h-[1300px] lg:min-h-[1000px] justify-end">
+      <div className="content flex flex-col max-w-[1600px] mx-auto p-10 sm:min-h-[1300px] lg:min-h-[1000px] justify-end sm:mt-0">
         <div className="top flex flex-row justify-between flex-wrap gap-5 mb-28">
           <div className="left items-center">
             <div className="logo flex items-center gap-3">

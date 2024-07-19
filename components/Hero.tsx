@@ -54,8 +54,9 @@ import CustomButton from "./CustomButton";
 
 const Hero = () => {
   return (
-    <section className="container max-w-[1400px] mx-auto p-4">
-      <div className="flex flex-col md:flex-row md:items-center pl-2 bg-hero-bg bg-no-repeat">
+    <section className="w-full bg-hero-bg bg-no-repeat bg-right-top">
+      <div className="container max-w-[1600px] mx-auto p-4">
+      <div className="flex flex-col md:flex-row md:items-center pl-2">
         {/* Left Side */}
         <div className="flex-1 md:mr-4 ml-4 md:text-left mb-4 md:mb-0">
           <h1 className="text-3xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 text-fontColor ">
@@ -98,6 +99,8 @@ const Hero = () => {
           className="w-full h-auto"
         />
       </div>
+      </div>
+      
     </section>
   );
 };

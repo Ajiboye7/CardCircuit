@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '480px', 
+      },
       width: {
         '600': '600px',
       },
@@ -42,7 +45,7 @@ const config: Config = {
         'big': '9rem',
         'footerLinkFont':'1.3rem',
         'navLinkFont': '1.2rem',
-        'featureP' : '1.2rem',
+        'featureP' : '1rem',
       },
       borderRadius:{
         'borderCurve': '5rem',

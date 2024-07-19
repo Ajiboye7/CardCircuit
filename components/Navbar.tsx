@@ -68,7 +68,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex flex-row items-center justify-between p-4 w-full max-w-[1550px] mx-auto bg-hero-bg bg-no-repeat">
+    <nav className='w-full bg-hero-bg bg-no-repeat bg-right-top'>
+      <div className="flex flex-row items-center justify-between p-4 max-w-[1550px] mx-auto">
       <div className="flex flex-row items-center">
         <Link href="/">
           <div className="flex flex-row items-center">
@@ -107,6 +108,8 @@ const Navbar = () => {
           <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
         </div>
       )}
+      </div>
+
     </nav>
   );
 };

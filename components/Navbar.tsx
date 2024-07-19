@@ -72,26 +72,26 @@ const Navbar = () => {
       <div className="flex flex-row items-center">
         <Link href="/">
           <div className="flex flex-row items-center">
-            <Image src="/Logo.svg" alt="logo" width={50} height={50} className="w-12 h-12 md:w-16 md:h-16" />
-            <h2 className="text-fontColor font-bold text-xl md:text-3xl px-2 md:px-5 flex-shrink-0">CardCircuit</h2>
+            <Image src="/Logo.svg" alt="logo" width={50} height={50} className="w-12 h-12 lg:w-16 md:h-16" />
+            <h2 className="text-fontColor font-bold text-2xl md:text-4xl lg:text-3xl px-2 md:px-5 flex-shrink-0">CardCircuit</h2>
           </div>
         </Link>
       </div>
-      <div className="hidden md:flex items-center space-x-6 bg-linkBg p-6 rounded-full mr-3 h-24 w-auto">
-        <Link href="/" className="text-2xl text-fontColor hover:text-blue-800">Home</Link>
-        <Link href="/features" className="text-2xl text-fontColor hover:text-blue-800">Features</Link>
-        <Link href="/stories" className="text-2xl text-fontColor hover:text-blue-800">Stories</Link>
-        <Link href="/about-us" className="text-2xl text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
+      <div className="hidden lg:flex items-center space-x-6 bg-linkBg p-6 rounded-full mr-3 h-24 w-auto">
+        <Link href="/" className="text-navLinkFont lg:text-2xl text-fontColor hover:text-blue-800">Home</Link>
+        <Link href="/features" className="text-navLinkFont lg:text-2xl text-fontColor hover:text-blue-800">Features</Link>
+        <Link href="/stories" className="text-navLinkFont lg:text-2xl text-fontColor hover:text-blue-800">Stories</Link>
+        <Link href="/about-us" className="text-navLinkFont lg:text-2xl text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
       </div>
-      <div className="hidden md:flex">
-        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" imageStyle="w-12 h-12" />
+      <div className="hidden lg:flex">
+        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
       </div>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <button onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? (
-            <FontAwesomeIcon icon={faTimes} className="w-6 h-6 text-fontColor" />
+            <FontAwesomeIcon icon={faTimes} className="w-6 h-6 md:w-10 md:h-10 text-fontColor" />
           ) : (
-            <FontAwesomeIcon icon={faBars} className="w-6 h-6 text-fontColor" />
+            <FontAwesomeIcon icon={faBars} className="w-6 h-6 md:w-10 md:h-10 text-fontColor" />
           )}
         </button>
       </div>

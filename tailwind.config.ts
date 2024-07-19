@@ -28,6 +28,7 @@ const config: Config = {
         GetStartedTextFont:'#585F81',
         FooterBackground: '#1B2F82',
         withEaseP: '#E3ECF4',
+        BorderLineColour: '#36477A',
       },
       backgroundImage: {
         'hero-bg': "url('/Header Background.svg')",
@@ -42,7 +43,7 @@ const config: Config = {
         'slightly-loose': '1.3',
       },
       fontSize: {
-        'big': '9rem',
+        'big': '10.5rem',
         'footerLinkFont':'1.3rem',
         'navLinkFont': '1.2rem',
         'featureP' : '1rem',

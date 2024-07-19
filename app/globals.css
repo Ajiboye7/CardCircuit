@@ -48,7 +48,9 @@ body {
 .ease-p{
   @apply text-withEaseP
 }
-
+.border{
+  @apply border-BorderLineColour
+}
 
 
 

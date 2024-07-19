@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const WithEase = () => {
   return (
-    <section className="flex flex-col sm:flex-row items-center py-12 max-w-[1440px] mx-auto p-4 overflow-hidden">
+    <section className="flex flex-col sm:flex-row items-center py-12 max-w-[1600px] mx-auto p-4 overflow-hidden">
     {/* Left Side */}
     <div className="left lg:w-1/2 px-4 lg:px-8 mb-8 lg:mb-0 text-fontColor flex-1">
       <h2 className="text-xl font-bold sm:text-3xl sm:leading-slightly-loose md:text-5xl lg:text-5xl xl:text-6xl md:leading-slightly-loose lg:leading-slightly-loose xl:leading-slightly-loose lg:mb-10 mb-4 ">Step into the Future of Finance with Ease!</h2>

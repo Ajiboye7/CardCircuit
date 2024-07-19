@@ -69,7 +69,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full bg-hero-bg bg-no-repeat bg-right-top'>
-      <div className="flex flex-row items-center justify-between p-4 max-w-[1550px] mx-auto">
+      <div className="flex flex-row items-center justify-between p-4 max-w-[1600px] mx-auto">
       <div className="flex flex-row items-center">
         <Link href="/">
           <div className="flex flex-row items-center">

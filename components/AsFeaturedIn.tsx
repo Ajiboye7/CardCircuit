@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const AsFeaturedIn = () => {
   return (
-    <section className='h-auto max-w-[1400px] mx-auto mb-10'>
+    <section className='h-auto max-w-[1400px] mx-auto'>
       <h2 className='text-fontColor text-center  text-4xl sm:5xl md:text-6xl lg:text-7xl font-bold'>As <span className='text-cardThreeBg'>Featured</span> in</h2>
       <div className='flex flex-row flex-wrap justify-center items-center gap-16 mt-10 mx-5'>
         <Image 

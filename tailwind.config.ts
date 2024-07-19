@@ -47,6 +47,7 @@ const config: Config = {
         'footerLinkFont':'1.3rem',
         'navLinkFont': '1.2rem',
         'featureP' : '1rem',
+        'testimonyH1':'4.3rem',
       },
       borderRadius:{
         'borderCurve': '5rem',

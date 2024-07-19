@@ -9,7 +9,7 @@ interface TestimonialCardProps {
 const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
   return (
     <div className="relative group w-[500px] sm:h-[700px] m-4 h-[450px] overflow-hidden rounded-borderCurve">
-      {/* Parent Card with background image */}
+    
       <Image
         src={testimonial.img}
         alt={testimonial.alt}
@@ -23,7 +23,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
         <div className="flex flex-col gap-3 ">
           <div className="flex items-center mt-5">
             <Image
-              src="/Stars.svg" // star image path
+              src="/Stars.svg"
               alt="5 stars"
               width={150}
               height={20}

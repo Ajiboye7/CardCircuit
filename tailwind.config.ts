@@ -1,6 +1,5 @@
-import { url } from 'inspector';
+
 import type { Config } from 'tailwindcss';
-import { GetStarted } from './components';
 
 const config: Config = {
   content: [

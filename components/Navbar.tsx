@@ -87,7 +87,10 @@ const Navbar = () => {
         <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
       </div>
       <div className="lg:hidden">
-        <button onClick={() => setIsOpen(!isOpen)}>
+      <button onClick={() => {
+          console.log("Toggling menu"); 
+          setIsOpen(!isOpen);
+        }}>
           {isOpen ? (
             <FontAwesomeIcon icon={faTimes} className="w-6 h-6 md:w-10 md:h-10 text-fontColor" />
           ) : (
@@ -96,11 +99,11 @@ const Navbar = () => {
         </button>
       </div>
       {isOpen && (
-        <div className="absolute top-16 left-0 right-0 bg-white flex flex-col items-center space-y-4 py-6 md:hidden">
-          <Link href="/" className="text-fontColor hover:text-blue-800">Home</Link>
-          <Link href="/features" className="text-fontColor hover:text-blue-800">Features</Link>
-          <Link href="/stories" className="text-fontColor hover:text-blue-800">Stories</Link>
-          <Link href="/about-us" className="text-fontColor hover:text-blue-800">About Us</Link>
+        <div className="absolute top-16 left-0 right-0 bg-customBg flex flex-col items-center space-y-4 py-6 lg:hidden">
+          <Link href="/" className="text-fontColor text-2xl hover:text-blue-800">Home</Link>
+          <Link href="/features" className="text-fontColor text-2xl  hover:text-blue-800">Features</Link>
+          <Link href="/stories" className="text-fontColor text-2xl  hover:text-blue-800">Stories</Link>
+          <Link href="/about-us" className="text-fontColor text-2xl hover:text-blue-800">About Us</Link>
           <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
         </div>
       )}

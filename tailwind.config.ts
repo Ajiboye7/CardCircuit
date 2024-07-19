@@ -42,6 +42,7 @@ const config: Config = {
         'big': '9rem',
         'footerLinkFont':'1.3rem',
         'navLinkFont': '1.2rem',
+        'featureP' : '1.2rem',
       },
       borderRadius:{
         'borderCurve': '5rem',

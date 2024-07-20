@@ -87,8 +87,7 @@ export default TestimonialCard;*/}
 import { Testimonial as TestimonialData } from "@/constants";
 import Image from "next/image";
 import { TestimonialProps } from "@/types";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 interface TestimonialCardProps {
   testimonial: TestimonialProps;

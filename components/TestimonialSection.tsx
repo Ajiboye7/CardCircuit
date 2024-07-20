@@ -1,41 +1,53 @@
 import React from 'react';
-import {TestimonialCard} from '@/components'
+import { TestimonialCard } from '@/components';
 import { Testimonial } from '@/constants';
 import Image from 'next/image';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
- 
 const TestimonialSection = () => {
-  
   return (
     <div className='mt-10'>
       <div>
         <Image
-        src='/Quote.svg'
-        alt='quote'
-        width={180}
-        height={180}
-        className='relative w-0 sm:top-10 md:top-36 sm:w-[50px] md:w-[140px] '
+          src='/Quote.svg'
+          alt='quote'
+          width={180}
+          height={180}
+          className='relative w-0 sm:top-10 md:top-36 sm:w-[50px] md:w-[140px]'
         />
-      <h1 className='text-fontColor text-center text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold'>
-        What our <span className='text-cardThreeBg font-bold'>Customers</span> are saying
+        <h1 className='text-fontColor text-center text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold'>
+          What our <span className='text-cardThreeBg font-bold'>Customers</span> are saying
         </h1>
       </div>
-      
+
       <div className="flex flex-wrap justify-center py-12">
-      
-    {Testimonial?.map((testimonial) => (
-      <TestimonialCard key={testimonial.id}testimonial={testimonial}/>
-    ))}
-    
-  </div>
-  
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={50}
+          slidesPerView={3}
+          navigation
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log('slide change')}
+        >
+          {Testimonial?.map((testimonial) => (
+            <SwiperSlide key={testimonial.id}>
+              <TestimonialCard testimonial={testimonial} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
-   
   );
 }
 
 export default TestimonialSection;
-
 
 /*import React from 'react';
 import Slider from 'react-slick';

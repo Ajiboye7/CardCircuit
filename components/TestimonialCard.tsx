@@ -84,6 +84,26 @@ export default TestimonialCard;
 }
 
 
+{/*import { Testimonial as TestimonialData } from "@/constants";
+import Image from "next/image";
+import { TestimonialProps } from "@/types";
+
+
+interface TestimonialCardProps {
+  testimonial: TestimonialProps;
+}
+
+const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
+  return (
+    <div className="relative group w-[500px] sm:h-[700px] m-4 h-[450px] overflow-hidden rounded-borderCurve">
+      {/* Parent Card with background image 
+      <Image
+        src={testimonial.img}
+        alt={testimonial.alt}
+        layout="fill"
+        objectFit="cover"
+        className="absolute inset-0 z-0"
+      />
 
       {/* Smaller Card 
       <div className="absolute  bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg bg-opacity-70 w-[350px] sm:w-[450px] h-56 rounded-lessCurve shadow-lg">

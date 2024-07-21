@@ -59,15 +59,7 @@ const WithEase = () => {
 export default WithEase;
 
 {/*
-    
-    <div className="right lg:w-1/2 relative flex justify-center items-center">
-      <Image
-        src="/Add Card V3 M 1.svg"
-        alt="Main Image"
-        width={500}
-        height={500}
-        className="relative z-10 w-full h-auto"
-      />
+   
 
       
       <Image

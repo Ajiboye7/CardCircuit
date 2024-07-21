@@ -57,4 +57,3 @@ const Hero = () => {
 };
 
 export default Hero;
-ace-x-4 md:flex-row*/

@@ -57,5 +57,4 @@ const Hero = () => {
 };
 
 export default Hero;
-
-/*flex flex-col space-y-3 md:space-y-0 md:space-x-4 md:flex-row*/
+ace-x-4 md:flex-row*/

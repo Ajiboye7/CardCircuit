@@ -19,7 +19,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
       />
 
       {/* Smaller Card */}
-      <div className="absolute  bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg bg-opacity-70 w-[350px] sm:w-[450px] h-56 rounded-lessCurve shadow-lg">
+      <div className="absolute  bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg bg-opacity-70 w-[350px] sm:w-[450px] h-56 rounded-3xl shadow-lg">
         <div className="flex flex-col gap-3 ">
           <div className="flex items-center mt-5">
             <Image
@@ -43,9 +43,11 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
       <div className="absolute bottom-6 left-1/2 bg-opacity-70 transform -translate-x-1/2 translate-y-0 group-hover:-translate-y-52 transition-transform duration-500 opacity-0 group-hover:opacity-100 ease-in-out w-[350px] sm:w-[450px] h-auto bg-testimonialCardBg p-6 rounded-t-3xl shadow-lg flex flex-col justify-center items-center text-center z-0">
         <p className="text-2xl text-fontColor font-bold">{testimonial.testimony}</p>
       </div>*/}
-      <div className="absolute bottom-6 left-1/2 bg-opacity-70 transform -translate-x-1/2 translate-y-52 group-hover:-translate-y-52 transition-transform duration-500 opacity-0 group-hover:opacity-100 ease-in-out w-[350px] sm:w-[450px] h-auto bg-testimonialCardBg p-6 rounded-t-3xl shadow-lg flex flex-col justify-center items-center text-center z-0">
-        <p className="text-2xl text-fontColor font-bold">{testimonial.testimony}</p>
-      </div>
+     <div className="absolute bottom-6 left-1/2 bg-opacity-70 transform -translate-x-1/2 translate-y-0 group-hover:-translate-y-52 transition-transform duration-1000 opacity-100 group-hover:opacity-100 ease-in-out w-[350px] sm:w-[450px] h-auto bg-testimonialCardBg p-6 rounded-t-3xl shadow-lg flex flex-col justify-center items-center text-center z-0">
+  <p className="text-2xl text-fontColor font-bold">{testimonial.testimony}</p>
+</div>
+
+
     </div>
   );
 };
@@ -87,6 +89,3 @@ export default TestimonialCard;
 }
 
 
-
-
-    

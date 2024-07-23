@@ -92,7 +92,36 @@ const Features = () => {
 export default Features;
 
 {
-  
+  /*
+     <div className="container  max-w-[1400px] mx-auto p-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="card-one bg-gray-200 p-4 rounded-3xl pl-12 relative group">
+          <div className="card-content flex flex-col">
+            <h2 className="text-blue-600 text-7xl">
+              <span className="font-bold">Centralize</span> Your Chaos
+            </h2>
+            <p className="text-blue-400 mt-2 text-2xl">
+              Your entire financial universe in one <br />
+              app.Link cards, manage
+              <br />
+              transactions, and stay on top of <br />
+              your finances effortlessly!.
+            </p>
+            <div className="absolute bottom-0 right-0  transition-transform transform translate-x-full translate-y-full group-hover:translate-x-0 group-hover:translate-y-0 duration-500">
+              <Image
+                src="/My Cards Screen Mockup 3.svg"
+                alt="image7"
+                width={300}
+                height={300}
+                className="w-full h-full"
+              />
+            </div>
+          </div>
+        </div>
+    
+    
+    */
+}
 
 /*import Image from "next/image";
 import CustomButton from "./CustomButton";

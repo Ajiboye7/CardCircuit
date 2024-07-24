@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} max-w-[1800px] mx-auto border border-blue-500 `}>
+      <body className={`${inter.className} max-w-[1800px] mx-auto`}>
         <Navbar/>
         {children}
         <Footer/>

@@ -7,6 +7,8 @@ import TestimonialCard from "./TestimonialCard";
 import AsFeaturedIn from "./AsFeaturedIn";
 import GetStarted from "./GetStarted";
 import Footer from "./Footer";
+
+
 export{
     Navbar,
     Button,

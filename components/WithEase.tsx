@@ -26,7 +26,7 @@ const WithEase = () => {
       />
 
       
-<Image
+      <Image
         src="/Card (1).svg"
         alt="Small Image 1"
         width={100}

@@ -29,7 +29,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
               height={20}
             />
           </div>
-          <h3 className="text-4xl font-bold  text-fontColor">
+          <h3 className="text-4xl font-bold text-fontColor">
             {testimonial.name}
           </h3>
           <p className="text-2xl mb-1 text-fontColor ">

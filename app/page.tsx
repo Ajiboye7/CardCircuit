@@ -13,7 +13,7 @@ export default function Home() {
       <TextWithBackground/>
       <Features/>
       <WithEase/>
-      <TestimonialSection/>
+      {/*<TestimonialSection/>*/}
       <AsFeaturedIn/>
       <GetStarted/>
     </main>

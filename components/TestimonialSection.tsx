@@ -24,7 +24,7 @@ const TestimonialSection = () => {
         </h1>
       </div>
 
-      <div className="flex overflow-hidden justify-center py-12 mx-auto max-w-[1440px]">
+      <div className="flex overflow-hidden py-12 mx-auto max-w-[1440px] overflow-x-scroll hide-scrollbar">
         {Testimonial?.map((testimonial) => (
           <div key={testimonial.id} className="m-4">
             <TestimonialCard testimonial={testimonial} />

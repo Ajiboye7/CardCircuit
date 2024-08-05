@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Full Width Image */}
-      <div className="mt-24 bg-hero-bg bg-no-repeat ">
+      <div className="mt-8 sm:mt-24 bg-hero-bg bg-no-repeat ">
         <Image
           src="/Mockups.svg"
           alt="analyticSreen"

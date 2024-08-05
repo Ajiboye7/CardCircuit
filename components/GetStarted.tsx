@@ -7,7 +7,7 @@ const GetStarted = () => {
         <div className="flex flex-col gap-8 items-center justify-center max-w-[1440px] mx-auto min-h-[600px] bg-fontColor rounded-3xl sm:rounded-borderCurve p-5 sm:p-14 sm:relative top-64 bg-footer-bg1 bg-no-repeat ">
       <h2 className="text-customBg text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold ">Get <span className="text-cardThreeBg">Started </span>Today</h2>
       <p className="text-GetStartedTextFonts text-2xl sm:text-2xl lg:text-3xl font-semibold leading-slightly-loose bg-footer2 bg-no-repeat bg-right-bottom">Ready to revolutionize how you manage your money? Take the leap towards effortless money management with CardCircuit. Join us now and experience the future of centralized finance.</p>
-      <div className="flex gap-7">
+      <div className="flex gap-btnGapSm sm:gap-7">
       <CustomButton
             title="Get it on<br> Google Play"
             Icon="/playstore-svgrepo-com 1.svg"
@@ -25,7 +25,6 @@ const GetStarted = () => {
           line2Styles="font-bold md:text-3xl lg:text-4xl"
           line1Styles="text-1xl md:text-2xl"
           />
-          
         </div>
     </div>
     </section>

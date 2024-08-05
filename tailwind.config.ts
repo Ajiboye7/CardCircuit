@@ -48,11 +48,15 @@ const config: Config = {
         'navLinkFont': '1.2rem',
         'featureP' : '1rem',
         'testimonyH1':'4.3rem',
+        
       },
       borderRadius:{
         'borderCurve': '5rem',
         'lessCurve' : '4rem',
       },
+      gap:{
+        'btnGapSm' : '0.5rem',
+      }
     },
   },
   plugins: [],

@@ -8,7 +8,7 @@ interface TestimonialCardProps {
 
 const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
   return (
-    <div className="relative group w-[500px] sm:h-[700px] m-4 h-[450px] overflow-hidden rounded-borderCurve ">
+    <div className="relative group w-[300px] sm:h-[700px] m-4 h-[450px] overflow-hidden rounded-borderCurve ">
       {/* Parent Card with background image */}
       <Image
         src={testimonial.img}

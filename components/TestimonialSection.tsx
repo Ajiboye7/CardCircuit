@@ -10,7 +10,7 @@ import 'swiper/css/scrollbar';
 
 const TestimonialSection = () => {
   return (
-    <div className='mt-10'>
+    <div className='mt-10 mx-auto '>
       <div>
         <Image
           src='/Quote.svg'
@@ -24,10 +24,10 @@ const TestimonialSection = () => {
         </h1>
       </div>
 
-      <div className="flex overflow-hidden py-12 mx-auto max-w-[1440px] overflow-x-scroll hide-scrollbar">
+      <div className="flex items-center justify-center flex-wrap py-12 mx-auto max-w-[1500px]" /*'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-[1440px]'*/>
         {Testimonial?.map((testimonial) => (
-          <div key={testimonial.id} className="m-4">
-            <TestimonialCard testimonial={testimonial} />
+          <div key={testimonial.id}>
+            <TestimonialCard testimonial={testimonial}/>
           </div>
         ))}
       </div>

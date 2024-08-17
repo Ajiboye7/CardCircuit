@@ -45,14 +45,14 @@ const Footer = () => {
           </div>
           {FooterLinks.map((column, columnIndex) => (
             <div key={column.title} className="title">
-              <h3 className="text-fontColor text-3xl font-bold pb-5">
+              <h3 className="text-fontColor footer-title pb-5">
                 {column.title}
               </h3>
               <ul className="links text-fontColor">
                 {column.links.map((link, linkIndex) => (
                   <li
                     key={link.title}
-                    className="footerLinks text-footerLinkFont py-2"
+                    className="footer-link py-2"
                   >
                     {columnIndex === FooterLinks.length - 1 &&
                     linkIndex === column.links.length - 1 ? (

@@ -70,6 +70,9 @@ body {
 .nav-link{
   @apply text-[18px] leading-[20px] font-[590]
 }
+.button-text{
+  @apply text-[16px]  font-[590]
+}
 
 .header-primary-text{
   @apply text-[70px] leading-[83.54px] font-[600]

@@ -6,63 +6,61 @@ const Button = ({ title, containerStyles, Icon, textStyles,imageStyle,line1Style
 
   return (
     <div>
-  <button
-    type="submit"
-    className={`custom-btn flex items-center gap-2 bg-buttonBlue ${containerStyles} relative overflow-hidden transition-all duration-500 ease-out group`}
-  >
-    <div className={`absolute inset-0 bg-gradient-to-r from-blue-500 to-green-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out z-0`}></div>
-    <div className="relative z-10">
+    <button type="submit" className={`custom-btn flex items-center gap-2 bg-buttonBlue ${containerStyles}`}>
       <div className={textStyles}>
-        {titleLines.map((line, index) =>
+       {titleLines.map((line, index) => (
           index === 0 ? (
-            <div key={index} className={line1Styles}>
-              {line}
-            </div>
+            <div key={index} className={line1Styles}>{line}</div>
           ) : (
-            <div key={index} className={line2Styles}>
-              {line}
-            </div>
+            <div key={index} className={line2Styles}>{line}</div>
           )
-        )}
+        ))}
       </div>
-    </div>
-    {Icon && (
-      <div className="relative z-10 flex-shrink-0">
-        <Image
-          src={Icon}
-          alt="icon"
-          width={20}
-          height={20}
-          className={`${imageStyle} transition-transform duration-500 ease-out group-hover:rotate-180`}
-        />
-      </div>
-    )}
-  </button>
-</div>
+      {Icon && (
+        <div className="flex-shrink-0">
+          <Image src={Icon} alt="icon" width={20} height={20} className={`${imageStyle}`} />
+        </div>
+      )}
+    </button>
+  </div>
 
   );
 };
 
 export default Button;
-{/*
-  <div>
-      <button type="submit" className={`custom-btn flex items-center gap-2 bg-buttonBlue ${containerStyles}`}>
-        <div className={textStyles}>
-         {titleLines.map((line, index) => (
-            index === 0 ? (
-              <div key={index} className={line1Styles}>{line}</div>
-            ) : (
-              <div key={index} className={line2Styles}>{line}</div>
-            )
-          ))}
-        </div>
-        {Icon && (
-          <div className="flex-shrink-0">
-            <Image src={Icon} alt="icon" width={20} height={20} className={`${imageStyle}`} />
-          </div>
-        )}
+
+
+    {/* Hover Effect
+      import React from 'react';
+import Image from 'next/image';
+import { CustomButtonProps } from '@/types';
+
+const CustomButton = ({ title, buttonStyle, iconStyle, Icon, titleStyle }: CustomButtonProps) => {
+  return (
+    <div>
+      <button
+        type="submit"
+        className={`flex items-center gap-2 rounded-full whitespace-nowrap transition-transform duration-300 ${buttonStyle}`}
+      >
+        <span
+          className={`btn-text transform transition-transform duration-300 ease-in-out hover:translate-x-1 ${titleStyle}`}
+        >
+          {title}
+        </span>
+        <Image
+          alt="buttonIcon"
+          src={Icon}
+          width={20}
+          height={20}
+          className={`transform transition-transform duration-300 ease-in-out hover:translate-x-1 ${iconStyle}`}
+        />
       </button>
-    </div> */}
+    </div>
+  );
+}
+
+export default CustomButton;
+ */}
 
 
 /*import Image from "next/image";

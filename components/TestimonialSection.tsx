@@ -19,9 +19,9 @@ const TestimonialSection = () => {
           height={180}
           className='relative w-0 sm:top-10 md:top-36 sm:w-[50px] md:w-[140px]'
         />
-        <h1 className='text-fontColor text-center text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold'>
+        <p className='text-fontColor text-center testimonial-title '>
           What our <span className='text-cardThreeBg font-bold'>Customers</span> are saying
-        </h1>
+        </p>
       </div>
 
       <div className="flex items-center justify-center flex-wrap py-12 mx-auto max-w-[1500px]" /*'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-[1440px]'*/>

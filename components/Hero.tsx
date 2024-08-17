@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="w-full bg-hero-bg bg-no-repeat bg-right-top">
       <div className="container mx-auto p-4">
-      <div className="flex w-[1400px] justify-between flex-col md:flex-row md:items-center pl-2">
+      <div className="flex justify-between flex-col md:flex-row md:items-center pl-2">
         {/* Left Side */}
         <div className=" md:mr-4 ml-4 md:text-left mb-4 md:mb-0">
           <p className="header-primary-text font-bold mb-4 text-fontColor ">
@@ -24,15 +24,15 @@ const Hero = () => {
             <CustomButton
               title="Get on Android"
               Icon="/playstore-svgrepo-com 1.svg"
-              textStyles="text-1xl sm:text-2xl"
-              imageStyle="w-7 sm:w-10 md:w-7"
+              textStyles="button-text"
+              imageStyle="w-7 sm:w-10 md:w-[24px]"
             />
 
             <CustomButton
               title="Get on iPhone"
               Icon="/Vector.svg"
-              textStyles="text-1xl sm:text-2xl"
-              imageStyle="w-7 sm:w-8 md:w-7"
+              textStyles="button-text"
+              imageStyle="w-7 sm:w-8 md:w-[24px]"
               containerStyles="gap-2"
             />
           </div>

@@ -14,7 +14,7 @@ const Footer = () => {
               <Image src="/Logo.svg" alt="logo" width={80} height={80} />
               <h2 className="text-fontColor text-3xl font-bold">CardCircuit</h2>
             </div>
-            <p className="text-fontColor text-footerLinkFont py-7 leading-relaxed">
+            <p className="text-fontColor footer-body py-7 ">
               Discover seamless financial <br /> freedom with CardCircuit.
               Elevate your
               <br />
@@ -75,8 +75,8 @@ const Footer = () => {
           ))}
         </div>
         <div className="bottom text-fontColor flex sm:justify-center lg:justify-between items-center flex-wrap gap-5 border-t-2 pt-8">
-          <p className="text-2xl">&copy; 2023 CardCircuit. All rights reserved</p>
-          <p className="text-2xl ">private policy | Terms and Conditions</p>
+          <p className="footer-bottom-left-text">&copy; 2023 CardCircuit. All rights reserved</p>
+          <p className="footer-bottom-right-text">private policy | Terms and Conditions</p>
         </div>
       </div>
     </footer>

@@ -74,15 +74,15 @@ const Navbar = () => {
         <Link href="/">
           <div className="flex flex-row items-center">
             <Image src="/Logo.svg" alt="logo" width={50} height={50} className="w-12 h-12 lg:w-16 md:h-16" />
-            <h2 className="text-fontColor font-bold text-2xl md:text-4xl lg:text-3xl px-2 md:px-5 flex-shrink-0">CardCircuit</h2>
+            <h2 className="text-fontColor font-bold nav-logo-text px-2 md:px-5 flex-shrink-0">CardCircuit</h2>
           </div>
         </Link>
       </div>
       <div className="hidden lg:flex items-center space-x-6 bg-linkBg p-6 rounded-full mr-3 h-24 w-auto">
-        <Link href="/" className="text-navLinkFont lg:text-2xl text-fontColor hover:text-blue-800">Home</Link>
-        <Link href="/features" className="text-navLinkFont lg:text-2xl text-fontColor hover:text-blue-800">Features</Link>
-        <Link href="/stories" className="text-navLinkFont lg:text-2xl text-fontColor hover:text-blue-800">Stories</Link>
-        <Link href="/about-us" className="text-navLinkFont lg:text-2xl text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
+        <Link href="/" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800">Home</Link>
+        <Link href="/features" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800">Features</Link>
+        <Link href="/stories" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800">Stories</Link>
+        <Link href="/about-us" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
       </div>
       <div className="hidden lg:flex">
         <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
@@ -101,10 +101,10 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="absolute top-16 left-0 right-0 bg-customBg flex flex-col items-center space-y-4 py-6 lg:hidden">
-          <Link href="/" className="text-fontColor text-2xl hover:text-blue-800">Home</Link>
-          <Link href="/features" className="text-fontColor text-2xl  hover:text-blue-800">Features</Link>
-          <Link href="/stories" className="text-fontColor text-2xl  hover:text-blue-800">Stories</Link>
-          <Link href="/about-us" className="text-fontColor text-2xl hover:text-blue-800">About Us</Link>
+          <Link href="/" className="text-fontColor nav-link hover:text-blue-800">Home</Link>
+          <Link href="/features" className="text-fontColor nav-link  hover:text-blue-800">Features</Link>
+          <Link href="/stories" className="text-fontColor nav-link  hover:text-blue-800">Stories</Link>
+          <Link href="/about-us" className="text-fontColor nav-link hover:text-blue-800">About Us</Link>
           <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
         </div>
       )}

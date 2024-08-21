@@ -3,35 +3,7 @@
 @tailwind utilities;
 
 
-body {
-  @apply bg-customBg; 
-}
-
-.btn-bg {
-  @apply bg-buttonBlue; 
-}
-.navlink-bg{
-  @apply bg-linkBg;
-}
-
-.default-color {
-  @apply text-fontColor; 
-}
-.textBackground{
-  @apply text-textBg;
-}
-
-.custom-btn {
-  @apply flex items-center gap-2 px-3 py-3 sm:px-5 sm:py-5 md:px-9 md:py-4 lg:py-5 text-fontColor rounded-lg whitespace-nowrap;
-}
-.border{
-  @apply text-borderLine
-}
-.hero-background{
-  @apply bg-hero-bg
-}
-.card3bg{
-  @apply bg-cardThreeBg
+eBg
 }
 .card1-text{
   @apply text-cardOneText

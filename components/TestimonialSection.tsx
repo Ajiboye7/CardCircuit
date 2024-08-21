@@ -2,7 +2,10 @@ import React from 'react';
 import { TestimonialCard } from '@/components';
 import { Testimonial } from '@/constants';
 import Image from 'next/image';
-ination';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const TestimonialSection = () => {

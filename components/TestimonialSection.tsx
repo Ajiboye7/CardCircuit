@@ -10,6 +10,18 @@ import 'swiper/css/scrollbar';
 
 const TestimonialSection = () => {
   return (
+    <div className='mt-10 mx-auto '>
+      <div>
+        <Image
+          src='/Quote.svg'
+          alt='quote'
+          width={180}
+          height={180}
+          className='relative w-0 sm:top-10 md:top-36 sm:w-[50px] md:w-[140px]'
+        />
+        <p className='text-fontColor text-center testimonial-title '>
+          What our <span className='text-cardThreeBg font-bold'>Customers</span> are saying
+        </p>
       </div>
 
       <div className="flex items-center justify-center flex-wrap py-12 mx-auto max-w-[1500px]" /*'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-[1440px]'*/>

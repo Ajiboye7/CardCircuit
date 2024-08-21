@@ -10,7 +10,25 @@ const GetStarted = () => {
       <div className="flex gap-btnGapSm sm:gap-7">
       <CustomButton
             title="Get it on<br> Google Play"
-   
+            Icon="/playstore-svgrepo-com 1.svg"
+            imageStyle="w-4 md:w-8 lg:w-10 xl:w-16 sm:ml-2"
+            containerStyles="flex-row-reverse bg-customBg"
+            line2Styles="font-bold md:text-3xl lg:text-4xl"
+            line1Styles="md:text-2xl lg:text-2xl md:mr-16 lg:mr-24"
+        
+          />
+          <CustomButton 
+          title="Download on the<br> App Store" 
+          Icon="/Vector.svg" 
+          imageStyle="w-5 md:w-8 lg:w-10 xl:w-16 sm:ml-2"
+          containerStyles="flex-row-reverse bg-customBg"
+          line2Styles="font-bold md:text-3xl lg:text-4xl"
+          line1Styles="text-1xl md:text-2xl"
+          />
+        </div>
+    </div>
+    </section>
+    
   );
 }
 

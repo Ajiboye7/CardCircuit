@@ -19,17 +19,18 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
       />
 
       {/* Smaller Card */}
-      <div className="absolute  bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg bg-opacity-70 w-[350px] sm:w-[400px] h-56 rounded-3xl shadow-lg">
+      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg testimonial-small-card bg-opacity-70 sm:w-[400px] shadow-lg">
         <div className="flex flex-col gap-3 ">
           <div className="flex items-center mt-5">
             <Image
               src="/Stars.svg"
               alt="5 stars"
-              width={150}
-              height={20}
+              width={24}
+              height={24}
+              className="image-group"
             />
           </div>
-          <h3 className="text-3xl sm:text-4xl font-bold text-fontColor">
+          <h3 className=" card-name sm:text-4xl text-fontColor">
             {testimonial.name}
           </h3>
           <p className=" text-xl sm:text-2xl mb-1 text-fontColor ">

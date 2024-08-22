@@ -83,9 +83,17 @@ body {
 .foreground-text{
   @apply text-[96px] leading-[114.56px] font-[600]
 }
+.foreground-span-text{
+  @apply text-[96px]  leading-[114.56px] font-[800]
+
+}
 .background-text{
   @apply text-[150px] leading-[179px] font-[600]
 }
+.background-span-text{
+  @apply text-[150px] leading-[179px] font-[700]
+}
+
 .feature-title{
   @apply text-[70px] leading-[83.54px] font-[700]
 }

@@ -142,6 +142,9 @@ body {
 .card-skill{
   @apply text-[13px] leading-[21.95px] font-[510]
 }
+.card-pop-up{
+  @apply text-[18px] leading-[24px] font-[700]
+}
 .featured-in-text{
   @apply text-[70px] leading-[83.54px] font-[600] w-[451px] h-[84px]
 }

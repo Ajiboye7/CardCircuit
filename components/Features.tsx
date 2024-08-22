@@ -52,7 +52,7 @@ const Features = () => {
           <div className="card-contents flex flex-col lg:flex-row items-center gap-3  pt-5 sm:px-10 sm:pt-10 ">
             <div className="card-content-left flex-1 w-full flex-wrap p-5">
               <h2 className="text-fontColor md:mb-11 feature-title ">
-                Swift Transfer, Instant Control
+                Swift Transfer, Instant <span className="feature-title-span">Control</span>
               </h2>
               <p className="text-fontColor feature-body mt-5 mb-5  ">
                 Move money effortlessly between your cards with CardCircuit's

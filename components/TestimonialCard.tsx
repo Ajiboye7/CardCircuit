@@ -30,13 +30,13 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
               className="image-group"
             />
           </div>
-          <h3 className=" card-name sm:text-4xl text-fontColor">
+          <h3 className="card-name sm:text-4xl  text-fontColor">
             {testimonial.name}
           </h3>
-          <p className=" text-xl sm:text-2xl mb-1 text-fontColor ">
+          <p className="card-profession sm:text-2xl mb-1 text-fontColor ">
             {testimonial.profession}
           </p>
-          <p className="text-lg text-fontColor">{testimonial.skill}</p>
+          <p className="card-skill text-fontColor">{testimonial.skill}</p>
         </div>
       </div>
 

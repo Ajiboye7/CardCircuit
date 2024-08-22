@@ -134,13 +134,13 @@ body {
   @apply w-[24px] h-[24px]
 }
 .card-name{
-  @apply text-[35px] leading-[49.38px] font-[700] w-[237px] h-[50px]
+  @apply text-[35px] leading-[49.38px] font-[700]
 }
 .card-profession{
-  @apply text-[18px] leading-[21.95px] font-[590] w-[162px] h-[22px]
+  @apply text-[18px] leading-[21.95px] font-[590]
 }
 .card-skill{
-  @apply text-[13px] leading-[21.95px] font-[510] w-[131px] h-[22px]
+  @apply text-[13px] leading-[21.95px] font-[510]
 }
 .featured-in-text{
   @apply text-[70px] leading-[83.54px] font-[600] w-[451px] h-[84px]

@@ -20,7 +20,7 @@ const TestimonialSection = () => {
           className='relative w-0 sm:top-10 md:top-36 sm:w-[50px] md:w-[140px]'
         />
         <p className='text-fontColor text-center testimonial-title '>
-          What our <span className='text-cardThreeBg font-bold'>Customers</span> are saying
+          What our <span className='text-cardThreeBg font-[800]'>Customers</span> are saying
         </p>
       </div>
 

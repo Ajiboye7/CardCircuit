@@ -31,8 +31,7 @@ const Features = () => {
           <div className="card-content flex flex-col">
             <div></div>
             <h2 className="text-fontColor feature-title mt-10 mb-10 ">
-              Spend Smarter
-              <br /> with CardCircuit
+              Spend <span className="feature-title-span">Smarter</span> with CardCircuit
             </h2>
             <p className="text-fontColor mt-2 feature-body">
               Categorize your expenses, track trends, and get personalized

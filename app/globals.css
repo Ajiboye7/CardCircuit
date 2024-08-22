@@ -95,10 +95,10 @@ body {
 }
 
 .feature-title{
-  @apply text-[70px] leading-[83.54px] font-[700]
+  @apply text-[70px] leading-[83.54px] font-[600]
 }
 .feature-title-span{
-  @apply text-[70px] leading-[83.54px] font-[600]
+  @apply text-[70px] leading-[83.54px] font-[700]
 }
 .feature-body{
   @apply text-[25px] leading-[40px] font-[590]

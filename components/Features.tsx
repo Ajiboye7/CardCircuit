@@ -7,9 +7,9 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="card-one bg-gray-200 pr-4 pl-4 pt-4 rounded-2xl sm:rounded-borderCurve relative group overflow-hidden ">
           <div className="card-content flex flex-col">
-            <h2 className="text-cardOneText mb-10 feature-title mt-10 ">
-              <span className="font-bold">Centralize</span> Your Chaos
-            </h2>
+            <p className="text-cardOneText mb-10 feature-title mt-10 ">
+              <span className="feature-title-span">Centralize</span> Your Chaos
+            </p>
             <p className="mt-2 feature-body text-GetStartedTextFont ">
               Your entire financial universe in one app.Link cards, manage
               transactions, and stay on top of your finances effortlessly!.

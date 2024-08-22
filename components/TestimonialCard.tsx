@@ -58,40 +58,61 @@ export default TestimonialCard;
 {
 
 
+/*  
+import { Testimonial as TestimonialData } from "@/constants";
+import Image from "next/image";
+import { TestimonialProps } from "@/types";
 
+interface TestimonialCardProps {
+  testimonial: TestimonialProps;
+}
 
-  
-  /*
-    
-    
-     <div className="relative group w-80 h-96 m-4 overflow-hidden">
-        {/* Parent Card with background image 
-        <Image
-          src={testimonial?.img}
-          alt={testimonial?.alt}
-          layout="fill"
-          objectFit="cover"
-          className="absolute inset-0 z-0"
-        />
-        {/* Smaller Card 
-        <div className="relative z-10 p-4 bg-white bg-opacity-70 w-64 mx-auto mt-4 rounded-lg shadow-lg">
-          <div className="flex items-center mb-2">
+const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
+  return (
+    <div className="relative group testimonial-big-card sm:w-[450px] sm:h-[600px] m-4 overflow-hidden transition-all duration-500 ease-in-out">
+      {/* Parent Card with background image 
+      <Image
+        src={testimonial.img}
+        alt={testimonial.alt}
+        layout="fill"
+        objectFit="cover"
+        className="absolute inset-0 z-0"
+      />
+
+      {/* Smaller Card with hover effect 
+      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg testimonial-small-card bg-opacity-70 sm:w-[400px] shadow-lg transition-all duration-500 ease-in-out group-hover:h-[500px]">
+        <div className="flex flex-col gap-3">
+          {/* Testimonial Text (Hidden Initially, Revealed on Hover) 
+          <p className="text-1xl sm:text-2xl text-fontColor font-bold opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out transform -translate-y-full">
+            {testimonial.testimony}
+          </p>
+          {/* Other Card Content 
+          <div className="flex items-center mt-5">
             <Image
-              src="/Stars.svg" //star image path
+              src="/Stars.svg"
               alt="5 stars"
-              width={100}
-              height={20}
+              width={24}
+              height={24}
+              className="image-group"
             />
           </div>
-          <h3 className="text-xl font-bold mb-1 text-fontColor">{testimonial?.name}</h3>
-          <p className="text-sm mb-1">{testimonial?.profession}</p>
-          <p className="text-sm">{testimonial?.skill}</p>
+          <h3 className="card-name sm:text-4xl text-fontColor">
+            {testimonial.name}
+          </h3>
+          <p className="card-profession sm:text-2xl mb-1 text-fontColor ">
+            {testimonial.profession}
+          </p>
+          <p className="card-skill text-fontColor">{testimonial.skill}</p>
         </div>
-        {/* Pop-up card 
-        <div className="absolute inset-0 bg-white bg-opacity-90 p-6 flex flex-col justify-center items-center text-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out ">
-          <p className="text-lg">{testimonial?.testimony}</p>
-        </div>
-      </div>*/
+      </div>
+    </div>
+  );
+};
+
+export default TestimonialCard;
+
+
+*/
 }
 
 

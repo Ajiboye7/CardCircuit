@@ -42,47 +42,40 @@ const AsFeaturedIn = () => {
 
 export default AsFeaturedIn;*/
 
-/*'use client'
+'use client'
+// components/TestimonialCard.js
+
 import React, { useState } from 'react';
 
-const AsFeaturedIn = () => {
+const TestimonialCard = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div
-      className={`relative bg-white border rounded-lg p-4 transition-all duration-300 ease-in-out ${isHovered ? 'h-[329px]' : 'h-[196px]'}`}
+      className={`relative bg-white border rounded-lg overflow-hidden transition-all duration-300 ease-in-out ${isHovered ? 'h-[329px]' : 'h-[196px]'}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="absolute top-0 left-0 w-full h-full bg-white transition-transform duration-300 ease-in-out ${isHovered ? 'translate-y-0' : '-translate-y-full'}">
-        <div className="flex flex-col justify-between h-full">
-          <div>
-            <h3 className="text-xl font-semibold">Jane Doe</h3>
-            <p className="text-gray-500">Software Engineer</p>
-          </div>
-          <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isHovered ? 'opacity-100' : 'opacity-0'} `}>
-            <p className="mt-4 text-gray-700">
-              "Working with this team has been a transformative experience. Their expertise and dedication to quality are evident in every project they handle. I am continuously impressed by their ability to deliver outstanding results while maintaining clear and open communication. Highly recommended!"
-            </p>
-          </div>
+      {/* Testimonial Section */}
+      <div
+        className={`absolute top-0 left-0 w-full transition-transform duration-300 ease-in-out ${isHovered ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}
+        style={{ height: '133px' }}  // Fixed height for the testimonial content
+      >
+        <p className="p-4 text-gray-700">
+          "Working with this team has been a transformative experience. Their expertise and dedication to quality are evident in every project they handle. I am continuously impressed by their ability to deliver outstanding results while maintaining clear and open communication. Highly recommended!"
+        </p>
+      </div>
+      {/* Content Section */}
+      <div className={`relative flex flex-col justify-between p-4 transition-all duration-300 ease-in-out`}>
+        <div className={`${isHovered ? 'mt-[133px]' : 'mt-0'} transition-all duration-300 ease-in-out`}>
+          <h3 className="text-xl font-semibold">Jane Doe</h3>
+          <p className="text-gray-500">Software Engineer</p>
         </div>
       </div>
     </div>
   );
 };
 
-export default AsFeaturedIn;*/
+export default TestimonialCard;
 
-
-import React from 'react';
-
-const AsFeaturedIn = () => {
-  return (
-    <p className='text-white'>
-      Hello
-    </p>
-  );
-}
-
-export default AsFeaturedIn;
 

@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import Image from 'next/image';
 
 const AsFeaturedIn = () => {
@@ -40,7 +40,7 @@ const AsFeaturedIn = () => {
   );
 }
 
-export default AsFeaturedIn;*/
+export default AsFeaturedIn;
 
 /*'use client'
 

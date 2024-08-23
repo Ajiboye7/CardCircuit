@@ -75,10 +75,10 @@ body {
 }
 
 .header-primary-text{
-  @apply text-[70px] leading-[83.54px] font-[600]
+  @apply 2xl:text-[70px] xl:text-[60px] lg:text-[50px] 2xl:leading-[83.54px] sm:leading-[75px] font-[600]
 }
 .header-secondary-text{
-  @apply text-[25px] leading-[29.83px] font-[510]
+  @apply xl:text-[25px] lg:text-[20px] leading-[29.83px] font-[510]
 }
 .foreground-text{
   @apply text-[96px] leading-[114.56px] font-[600]

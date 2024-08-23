@@ -6,8 +6,8 @@ import CustomButton from "./CustomButton";
 const Hero = () => {
   return (
     <section className="w-full bg-hero-bg bg-no-repeat bg-right-top">
-      <div className="container mx-auto p-4">
-      <div className="flex justify-between flex-col md:flex-row md:items-center pl-2">
+      <div className="container mx-auto ">
+      <div className="flex justify-between flex-col md:flex-row md:items-center">
         {/* Left Side */}
         <div className=" md:mr-4 ml-4 md:text-left mb-4 md:mb-0">
           <p className="header-primary-text font-bold mb-4 text-fontColor ">
@@ -20,7 +20,7 @@ const Hero = () => {
             Welcome to seamless centralized banking.
            <br/> Manage and track all your cards in one app.
           </p>
-          <div className="flex mt-10 sm:justify-center md:justify-center gap-4 md:gap-2 lg:gap-5 xl:gap-10">
+         {/* <div className="flex mt-10 sm:justify-center md:justify-center gap-4 md:gap-2 lg:gap-5 xl:gap-10">
             <CustomButton
               title="Get on Android"
               Icon="/playstore-svgrepo-com 1.svg"
@@ -35,7 +35,7 @@ const Hero = () => {
               imageStyle="w-7 sm:w-8 md:w-[24px]"
               containerStyles="gap-2"
             />
-          </div>
+          </div>*/}
         </div>
       </div>
       {/* Full Width Image */}

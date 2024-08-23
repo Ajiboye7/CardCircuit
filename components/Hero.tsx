@@ -10,13 +10,13 @@ const Hero = () => {
       <div className="flex justify-between flex-col sm:flex-row md:items-center">
         {/* Left Side */}
         <div className=" md:mr-4 ml-4 md:text-left mb-4 md:mb-0">
-          <p className="header-primary-text font-bold mb-4 text-fontColor">
-            Simplify Your Wallet. <br/>Unify Your Finances.
+          <p className="hero-primary-text font-bold mb-4 text-fontColor">
+            Simplify Your <span className="font-[800]">Wallet</span>. <br/><span className="font-[800]">Unify</span> Your Finances.
           </p>
         </div>
         {/* Right Side */}
         <div className=" md:text-left mb-4 md:mb-0 ">
-          <p className="pl-4 border-l-4 border-borderLine header-secondary-text mb-4 text-fontColor">
+          <p className="pl-4 border-l-4 border-borderLine hero-secondary-text mb-4 text-fontColor">
             Welcome to seamless centralized banking.
            <br/> Manage and track all your cards in one app.
           </p>

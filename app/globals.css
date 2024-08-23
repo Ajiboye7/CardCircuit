@@ -146,13 +146,13 @@ body {
   @apply text-[18px] leading-[24px] font-[700]
 }
 .featured-in-text{
-  @apply text-[70px] leading-[83.54px] font-[600] w-[451px] h-[84px]
+  @apply text-[70px] leading-[83.54px] font-[600]
 }
 .featured-in-text-span{
   @apply font-[800]
 }
 .get-started-title{
-  @apply text-[70px] leading-[83.54px] font-[600] w-[564px] h-[84px]
+  @apply text-[70px] leading-[83.54px] font-[600]
 }
 .get-started-title-span{
   @apply font-[700] 

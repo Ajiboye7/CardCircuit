@@ -88,10 +88,10 @@ body {
 
 }
 .background-text{
-  @apply text-[150px] leading-[179px] font-[600]
+  @apply 2xl:text-[150px] text-[123px] leading-[179px] font-[600]
 }
 .background-span-text{
-  @apply text-[150px] leading-[179px] font-[700]
+  @apply 2xl:text-[150px] text-[123px] leading-[179px] font-[700]
 }
 
 .feature-title{

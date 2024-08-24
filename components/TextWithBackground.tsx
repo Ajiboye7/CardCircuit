@@ -8,7 +8,7 @@ const TextWithBackground = () => {
       Your <span className="background-span-text">Cards</span>. Your <span className="background-span-text">Rules</span>
       </p>
       <p className="foreground-text relative text-fontColor">
-        Your <span className="foreground-span-text">Cards</span>. Your <span className="foreground-span-text">Rules</span>
+        Your <span className="foreground-span-text">Cards</span>. Your <span className="foreground-span-text">Rules.</span>
       </p>
     </div>
     </section>

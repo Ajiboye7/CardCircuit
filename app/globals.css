@@ -81,17 +81,17 @@ body {
   @apply xl:text-[25px] lg:text-[20px] md:text-[15px] sm:text-[13px] text-[13px] leading-[20px] lg:leading-[29.83px] font-[510]
 }
 .foreground-text{
-  @apply 2xl:text-[96px] xl:text-[86px] lg:text-[66px] md:text-[50px] sm:text-[35px] text-[28px] leading-[114.56px] font-[600]
+  @apply 2xl:text-[96px] xl:text-[86px] lg:text-[66px] md:text-[50px] sm:text-[35px] text-[20px] leading-[114.56px] font-[600]
 }
 .foreground-span-text{
-  @apply 2xl:text-[96px] xl:text-[86px] lg:text-[66px] md:text-[50px]  sm:text-[35px] text-[28px] leading-[114.56px] font-[800]
+  @apply 2xl:text-[96px] xl:text-[86px] lg:text-[66px] md:text-[50px]  sm:text-[35px] text-[20px] leading-[114.56px] font-[800]
 
 }
 .background-text{
-  @apply 2xl:text-[150px] xl:text-[123px] lg:text-[98px] md:text-[74px] sm:text-[60px] text-[45px] leading-[179px] font-[600]
+  @apply 2xl:text-[150px] xl:text-[123px] lg:text-[98px] md:text-[74px] sm:text-[60px] xs:text-[45px] text-[35px] leading-[179px] font-[600]
 }
 .background-span-text{
-  @apply 2xl:text-[150px] xl:text-[123px] lg:text-[98px]  md:text-[74px] sm:text-[60px] text-[45px]  leading-[179px] font-[700]
+  @apply 2xl:text-[150px] xl:text-[123px] lg:text-[98px]  md:text-[74px] sm:text-[60px] xs:text-[45px]  leading-[179px] font-[700]
 }
 
 .feature-title{

@@ -78,7 +78,7 @@ body {
   @apply 2xl:text-[70px] xl:text-[60px] lg:text-[40px] md:text-[32px] sm:text-[23px] text-[30px] 2xl:leading-[83.54px] xl:leading-[75px] lg:leading-[50px] md:leading-[40px] sm:leading-[30px] leading-[40px] font-[600]
 }
 .hero-secondary-text{
-  @apply xl:text-[25px] lg:text-[20px] md:text-[15px] sm:text-[13px] text-[15px] leading-[20px] lg:leading-[29.83px] font-[510]
+  @apply xl:text-[25px] lg:text-[20px] md:text-[15px] sm:text-[13px] text-[13px] leading-[20px] lg:leading-[29.83px] font-[510]
 }
 .foreground-text{
   @apply 2xl:text-[96px] xl:text-[86px] lg:text-[66px] md:text-[50px] sm:text-[35px] text-[28px] leading-[114.56px] font-[600]

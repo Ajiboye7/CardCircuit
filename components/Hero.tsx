@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="container mx-auto px-7 ">
       <div className="flex justify-between flex-col sm:flex-row md:items-center">
         {/* Left Side */}
-        <div className=" md:mr-4 ml-4 md:text-left mb-4 md:mb-0">
+        <div className="  md:text-left mb-4 md:mb-0">
           <p className="hero-primary-text font-bold mb-4 text-fontColor">
             Simplify Your <span className="font-[800]">Wallet</span>. <br/><span className="font-[800]">Unify</span> Your Finances.
           </p>

@@ -27,12 +27,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="card-two bg-buttonBlue pr-4 pl-4 pt-4 rounded-2xl sm:rounded-borderCurve group overflow-hidden ">
-          <div className="card-content flex flex-col">
-            <div></div>
-            <h2 className="text-fontColor feature-title mt-10 mb-10 ">
-              Spend <span className="feature-title-span">Smarter</span><br className=" hidden md:block"/> with CardCircuit
-            </h2>
+        <div className="card-two b
             <p className="text-fontColor mt-2 feature-body">
               Categorize your expenses, track trends, and get personalized
               insights. Make informed decisions and save more every day.

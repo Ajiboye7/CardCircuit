@@ -6,7 +6,7 @@ const Features = () => {
     <div className="container mx-auto p-4 ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
         <div className="card-one bg-gray-200 pr-4 pl-4 pt-4 rounded-2xl sm:rounded-borderCurve relative group overflow-hidden ">
-          <div className="card-content flex flex-col">
+          <div className="card-content flex flex-col px-[1.5rem] xs:px-10">
             <p className="text-cardOneText feature-title lg:my-[35px] mt-[20px] mb-[25px]">
               <span className="feature-title-span">Centralize</span> Your <br/>Chaos
             </p>
@@ -28,7 +28,7 @@ const Features = () => {
         </div>
 
         <div className="card-two bg-buttonBlue pr-4 pl-4 pt-4 rounded-2xl sm:rounded-borderCurve group overflow-hidden ">
-          <div className="card-content flex flex-col">
+          <div className="card-content flex flex-col px-[1.5rem] xs:px-10">
             <div></div>
             <h2 className="text-fontColor feature-title lg:my-[35px] mt-[20px] mb-[25px] ">
               Spend <span className="feature-title-span">Smarter</span><br className=" hidden md:block"/> with CardCircuit
@@ -63,12 +63,12 @@ const Features = () => {
                 <CustomButton
                   title="Get on Android"
                   Icon="/playstore-svgrepo-com 1.svg"
-                  textStyles="text-2xl"
+                  textStyles="text-[16px]"
                 />
                 <CustomButton
                   title="Get on iPhone"
-                  Icon="/Vector.svg"
-                  textStyles="text-2xl"
+                  Icon="/public/blackApple.svg"
+                  textStyles="text-[16px]"
                 />
               </div>
             </div>

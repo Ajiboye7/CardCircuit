@@ -105,7 +105,7 @@ const Navbar = () => {
           <Link href="/features" className="text-fontColor nav-link  hover:text-blue-800">Features</Link>
           <Link href="/stories" className="text-fontColor nav-link  hover:text-blue-800">Stories</Link>
           <Link href="/about-us" className="text-fontColor nav-link hover:text-blue-800">About Us</Link>
-          <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
+          <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Left.svg" textStyles='text-[16px]' />
         </div>
       )}
       </div>

@@ -95,10 +95,10 @@ body {
 }
 
 .feature-title{
-  @apply 2xl:text-[70px] lg:text-[58px] 2xl:leading-[83.54px] lg:leading-[73.54px]  md:leading-[20.54px] sm:leading-[53.54px] xs:leading-[43.54px] leading-[33.54px] md:text-[40px] sm:text-[50px] xs:text-[50px] text-[40px] font-[600]
+  @apply 2xl:text-[70px] lg:text-[58px] 2xl:leading-[83.54px] lg:leading-[73.54px]  md:leading-[25.54px] sm:leading-[53.54px] xs:leading-[43.54px] leading-[25.54px] md:text-[40px] sm:text-[50px] xs:text-[50px] text-[37px] font-[600]
 }
 .feature-title-span{
-  @apply 2xl:text-[70px] lg:text-[58px] md:text-[40px] sm:text-[50px] xs:text-[50px] text-[40px] leading-[83.54px] font-[700]
+  @apply 2xl:text-[70px] lg:text-[58px] md:text-[40px] sm:text-[50px] xs:text-[50px] text-[37px] leading-[83.54px] font-[700]
 }
 .feature-body{
   @apply text-[25px] leading-[40px] font-[590]

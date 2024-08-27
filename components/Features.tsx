@@ -3,12 +3,12 @@ import CustomButton from "./CustomButton";
 import Image from "next/image";
 const Features = () => {
   return (
-    <div className="container  max-w-[1400px] mx-auto p-4 ">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="container mx-auto p-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
         <div className="card-one bg-gray-200 pr-4 pl-4 pt-4 rounded-2xl sm:rounded-borderCurve relative group overflow-hidden ">
           <div className="card-content flex flex-col">
-            <p className="text-cardOneText mb-10 feature-title mt-10 ">
-              <span className="feature-title-span">Centralize</span> Your Chaos
+            <p className="text-cardOneText feature-title lg:my-[35px] mt-[20px] mb-[25px]">
+              <span className="feature-title-span">Centralize</span> Your <br/>Chaos
             </p>
             <p className="mt-2 feature-body text-GetStartedTextFont ">
               Your entire financial universe in one app.Link cards, manage
@@ -30,7 +30,7 @@ const Features = () => {
         <div className="card-two bg-buttonBlue pr-4 pl-4 pt-4 rounded-2xl sm:rounded-borderCurve group overflow-hidden ">
           <div className="card-content flex flex-col">
             <div></div>
-            <h2 className="text-fontColor feature-title mt-10 mb-10 ">
+            <h2 className="text-fontColor feature-title lg:my-[35px] mt-[20px] mb-[25px] ">
               Spend <span className="feature-title-span">Smarter</span><br className=" hidden md:block"/> with CardCircuit
             </h2>
             <p className="text-fontColor mt-2 feature-body">
@@ -48,10 +48,10 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="card-three bg-cardThreeBg pt-8  rounded-2xl sm:rounded-borderCurve md:col-span-2">
+        <div className="card-three] bg-cardThreeBg pt-8  rounded-2xl sm:rounded-borderCurve md:col-span-2">
           <div className="card-contents flex flex-col lg:flex-row items-center gap-3  pt-5 sm:px-10 sm:pt-10 ">
             <div className="card-content-left flex-1 w-full flex-wrap p-5">
-              <h2 className="text-fontColor md:mb-11 feature-title ">
+              <h2 className="text-fontColor  feature-title ">
                 Swift Transfer, Instant <span className="feature-title-span">Control</span>
               </h2>
               <p className="text-fontColor feature-body mt-5 mb-5  ">

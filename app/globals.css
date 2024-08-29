@@ -96,14 +96,14 @@ body {
 
 .feature-title {
   @apply font-semibold leading-tight;
-  @apply text-[33px] sm:text-[42px] md:text-[40px] lg:text-[55px] 2xl:text-[70px];
-  @apply leading-[40px] sm:leading-[50px] md:leading-[55px] lg:leading-[65px] 2xl:leading-[75px];
+  @apply text-[33px] sm:text-[42px] md:text-[30px] lg:text-[40px] xl:text-[55px] 2xl:text-[70px];
+  @apply leading-[40px] sm:leading-[50px] md:leading-[45px] lg:leading-[55px] xl:leading-[76px] 2xl:leading-[75px];
 }
 
 .feature-title-span {
   @apply font-bold;
-  @apply text-[33px] sm:text-[42px] md:text-[40px] lg:text-[58px] 2xl:text-[70px];
-  @apply leading-[40px] sm:leading-[50px] md:leading-[55px] lg:leading-[65px] 2xl:leading-[75px];
+  @apply text-[33px] sm:text-[42px] md:text-[33px] lg:text-[42px] xl:text-[58px] 2xl:text-[70px];
+  @apply leading-[40px] sm:leading-[50px] md:leading-[45px] xl:leading-[76px] 2xl:leading-[75px];
 }
 
 .feature-body{

@@ -97,17 +97,20 @@ body {
 .feature-title {
   @apply font-semibold leading-tight;
   @apply text-[33px] sm:text-[42px] md:text-[30px] lg:text-[40px] xl:text-[55px] 2xl:text-[70px];
-  @apply leading-[40px] sm:leading-[50px] md:leading-[45px] lg:leading-[55px] xl:leading-[76px] 2xl:leading-[75px];
+  @apply leading-[50px] sm:leading-[58px] md:leading-[45px] lg:leading-[55px] xl:leading-[76px] 2xl:leading-[95px];
 }
 
 .feature-title-span {
   @apply font-bold;
   @apply text-[33px] sm:text-[42px] md:text-[33px] lg:text-[42px] xl:text-[58px] 2xl:text-[70px];
-  @apply leading-[40px] sm:leading-[50px] md:leading-[45px] xl:leading-[76px] 2xl:leading-[75px];
+  @apply leading-[50px] sm:leading-[58px] md:leading-[45px] xl:leading-[76px] 2xl:leading-[95px];
 }
 
 .feature-body{
-  @apply text-[20px] xs:text-[20px] md:text-[20px] lg:text-[25px] leading-[35px] xs:leading-[35px] md:leading-[35px] lg:leading-[40px] font-[590] xl:w-[80%]
+  @apply text-[16px] xs:text-[20px] md:text-[17px] lg:text-[20px] xl:text-[25px] leading-[35px] xs:leading-[35px] md:leading-[32px] lg:leading-[40px] font-[590] xl:w-[80%]
+}
+.feature-border{
+  @apply rounded-[3rem] sm:rounded-[4rem] md:rounded-[2rem] xl:rounded-[3rem] 2xl:rounded-[5rem]
 }
 .with-ease-title{
   @apply text-[70px] leading-[83.54px] font-[590]

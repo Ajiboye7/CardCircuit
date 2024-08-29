@@ -5,9 +5,9 @@ const Features = () => {
   return (
     <div className="container mx-auto p-4">
   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-stretch">
-    <div className="card-one flex flex-col bg-gray-200 pr-4 pl-4 pt-4 rounded-2xl sm:rounded-borderCurve relative group overflow-hidden">
+    <div className="card-one flex flex-col bg-gray-200 pr-4 pl-4 pt-4  feature-border relative group overflow-hidden">
       <div className="card-content flex flex-col px-[1.5rem] xs:px-10 flex-grow">
-        <p className="text-cardOneText feature-title lg:my-[35px] mt-[20px] mb-[25px]">
+        <p className="text-cardOneText feature-title lg:my-[35px] mt-[20px] mb-[16px] sm:mb-[25px]">
           <span className="feature-title-span">Centralize</span> Your <br /> Chaos
         </p>
         <p className="mt-2 feature-body text-GetStartedTextFont">
@@ -26,10 +26,9 @@ const Features = () => {
       </div>
     </div>
 
-    <div className="card-two flex flex-col bg-buttonBlue pr-4 pl-4 pt-4 rounded-2xl sm:rounded-borderCurve relative group overflow-hidden">
+    <div className="card-two flex flex-col bg-buttonBlue pr-4 pl-4 pt-4 relative group overflow-hidden feature-border">
       <div className="card-content flex flex-col px-[1.5rem] xs:px-10 flex-grow">
-        <div></div>
-        <p className="text-fontColor feature-title lg:my-[35px] mt-[20px] mb-[25px]">
+        <p className="text-fontColor feature-title lg:my-[35px] mt-[20px] mb-[16px] sm:mb-[25px]">
           Spend <span className="feature-title-span">Smarter</span><br className="hidden md:block" /> with CardCircuit
         </p>
         <p className="text-fontColor mt-2 feature-body">
@@ -48,12 +47,12 @@ const Features = () => {
       </div>
     </div>
 
-    <div className="card-three bg-cardThreeBg pt-8 rounded-2xl sm:rounded-borderCurve md:col-span-2">
+    <div className="card-three bg-cardThreeBg pt-8 md:col-span-2 feature-border">
       <div className="card-contents flex flex-col lg:flex-row items-center gap-3 pt-5 sm:px-10 sm:pt-10">
         <div className="card-content-left flex-1 w-full flex-wrap p-5">
-          <h2 className="text-fontColor feature-title">
+          <p className="text-fontColor feature-title">
             Swift Transfer, Instant <span className="feature-title-span">Control</span>
-          </h2>
+          </p>
           <p className="text-fontColor feature-body mt-5 mb-5">
             Move money effortlessly between your cards with CardCircuit's
             lightning-quick transfers. Say goodbye to waiting and hello to

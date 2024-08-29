@@ -7,8 +7,8 @@ const WithEase = () => {
     <section className="flex flex-col sm:flex-row items-center py-12 max-w-[1600px] mx-auto p-4 overflow-hidden">
     {/* Left Side */}
     <div className="left lg:w-1/2 px-4 lg:px-8 mb-8 lg:mb-0 text-fontColor flex-1">
-      <p className="text-2xl with-ease-title lg:mb-10 mb-4 ">Step into the Future of Finance with Ease!</p>
-      <p className="with-ease-body mb-6 text-withEaseP  lg:mb-9  ">
+      <p className=" with-ease-title lg:mb-10 mb-4 ">Step into the Future of Finance with Ease!</p>
+      <p className="with-ease-body mb-6 text-withEaseP lg:mb-9  ">
         Setting up your financial world has never been this smooth. CardCircuit brings you a hassle-free registration experience
         that's as swift as it is intuitive. With just a few clicks, you're ready to take control of your finances.
       </p>

@@ -112,15 +112,16 @@ body {
 .feature-border{
   @apply rounded-[3rem] sm:rounded-[4rem] md:rounded-[2rem] xl:rounded-[3rem] 2xl:rounded-[5rem]
 }
-.with-ease-title{
-  @apply text-[70px] leading-[83.54px] font-[590]
+.with-ease-title {
+  @apply text-[70px] leading-[83.54px] font-[590] xl:text-[70px] xl:leading-[83.54px];
+  @apply lg:text-[55px] lg:leading-[66px] md:text-[45px] md:leading-[54px] sm:text-[35px] sm:leading-[42px] text-[30px] leading-[36px];
 }
-.with-ease-title-span{
-  @apply text-[70px] leading-[83.54px] font-[700]
+
+.with-ease-body {
+  @apply text-[25px] leading-[40px] font-[590] xl:text-[25px] xl:leading-[40px];
+  @apply lg:text-[20px] lg:leading-[32px] md:text-[18px] md:leading-[28px] sm:text-[16px] sm:leading-[24px] text-[14px] leading-[20px];
 }
-.with-ease-body{
-  @apply text-[25px] leading-[40px] font-[590]
-}
+
 .testimonial-title{
   @apply text-[70px] leading-[83.54px] font-[600]
 }

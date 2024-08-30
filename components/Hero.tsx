@@ -5,8 +5,8 @@ import CustomButton from "./CustomButton";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-hero-bg bg-no-repeat bg-right-top">
-      <div className="container mx-auto px-7 ">
+    <section className="w-full bg-hero-bg bg-no-repeat bg-right-top container mx-auto">
+      <div className="px-7 ">
       <div className="flex justify-between flex-col sm:flex-row md:items-center">
         {/* Left Side */}
         <div className="  md:text-left mb-4 md:mb-0">

@@ -68,8 +68,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='w-full bg-hero-bg bg-no-repeat bg-right-top '>
-      <div className="flex flex-row items-center justify-between p-7 container mx-auto">
+    <nav className='w-full bg-hero-bg bg-no-repeat bg-right-top container mx-auto '>
+      <div className="flex flex-row items-center justify-between p-7 ">
       <div className="flex flex-row items-center">
         <Link href="/">
           <div className="flex flex-row items-center">

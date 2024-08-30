@@ -24,7 +24,7 @@ const TestimonialSection = () => {
         </p>
       </div>
 
-      <div className="flex items-center justify-center flex-wrap py-12 mx-auto max-w-[1500px]" /*'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-[1440px]'*/>
+      <div className="flex gap-10 items-center justify-center flex-wrap py-12 container mx-auto" /*'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto max-w-[1440px]'*/>
         {Testimonial?.map((testimonial) => (
           <div key={testimonial.id}>
             <TestimonialCard testimonial={testimonial}/>

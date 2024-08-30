@@ -4,10 +4,10 @@ import CustomButton from "./CustomButton";
 const GetStarted = () => {
   return (
     <section className=" mx-5 md:mx-10 lg:mx-20 bg-footer-bg1 bg-center z-10">
-        <div className="flex flex-col gap-8 items-center justify-center max-w-[1440px] mx-auto min-h-[600px] bg-fontColor rounded-3xl sm:rounded-borderCurve p-5 sm:p-14 sm:relative top-64 bg-footer-bg1 bg-no-repeat ">
-      <p className="text-customBg get-started-title ">Get <span className="text-cardThreeBg get-started-title-span">Started </span>Today</p>
-      <p className="get-started-body bg-footer2 bg-no-repeat ">Ready to revolutionize how you manage your money? Take the leap towards effortless money management with CardCircuit. Join us now and experience the future of centralized finance.</p>
-      <div className="flex gap-btnGapSm sm:gap-7">
+        <div className=" text-center max-w-[1440px] mx-auto min-h-[400px] md:min-h-[600px] bg-fontColor rounded-3xl sm:rounded-borderCurve p-5 sm:p-14 sm:relative top-64 bg-footer-bg1 bg-no-repeat ">
+      <p className="text-customBg get-started-title sm:my-4 md:my-6 lg:my-8 xl:my-12">Get <span className="text-cardThreeBg get-started-title-span">Started </span>Today</p>
+      <p className="get-started-body bg-footer2 bg-no-repeat mb-12 text-GetStartedTextFont">Ready to revolutionize how you manage your money? Take the leap towards effortless money management with CardCircuit. Join us now and experience the future of centralized finance.</p>
+      <div className="flex gap-btnGapSm items-center justify-center sm:gap-7">
       <CustomButton
             title="Get it on<br> Google Play"
             Icon="/playstore-svgrepo-com 1.svg"

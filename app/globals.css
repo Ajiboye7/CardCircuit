@@ -173,7 +173,7 @@ body {
   @apply font-[800]
 }
 .get-started-title{
-  @apply text-[70px] leading-[83.54px] font-[600]
+  @apply sm:text-[50px] md:text-[50px] lg:text-[60px] xl:text-[70px] leading-[83.54px] font-[600]
 }
 .get-started-title-span{
   @apply font-[700] 

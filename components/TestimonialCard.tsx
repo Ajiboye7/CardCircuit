@@ -8,7 +8,7 @@ interface TestimonialCardProps {
 
 const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
   return (
-    <div className="relative group sm:w-[380px] sm:h-[600px] m-4 overflow-hidden container mx-auto">
+    <div className="relative group testimonial-big-card m-4 overflow-hidden container mx-auto">
       {/* Parent Card with background image */}
       <Image
         src={testimonial.img}
@@ -22,7 +22,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
       />
 
       {/* Smaller Card */}
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg testimonial-small-card bg-opacity-70 sm:w-[340px] shadow-lg">
+      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg testimonial-small-card bg-opacity-70 shadow-lg">
         <div className="flex flex-col gap-3 ">
           <div className="flex items-center mt-5">
             <Image

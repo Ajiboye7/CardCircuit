@@ -11,7 +11,7 @@ import 'swiper/css/scrollbar';
 const TestimonialSection = () => {
   return (
     <div className='mt-10 mx-auto container'>
-      <div>
+      <div className=''>
         <Image
           src='/Quote.svg'
           alt='quote'

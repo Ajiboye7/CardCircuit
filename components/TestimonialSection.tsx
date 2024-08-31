@@ -17,7 +17,7 @@ const TestimonialSection = () => {
           alt='quote'
           width={180}
           height={180}
-          className='relative w-0 sm:top-10 md:top-36 sm:w-[50px] md:w-[140px]'
+          className='relative w-0 sm:top-[4.5rem] md:top-[7rem] sm:w-[50px] md:w-[100px] lg:w-[120px]'
         />
         <p className='text-fontColor text-center testimonial-title '>
           What our <span className='text-cardThreeBg font-[800]'>Customers</span> are saying

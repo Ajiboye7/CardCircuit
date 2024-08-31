@@ -6,7 +6,7 @@ const Button = ({ title, containerStyles, Icon, textStyles,imageStyle,line1Style
 
   return (
     <div>
-    <button type="submit" className={`custom-btn flex items-center gap-2 bg-buttonBlue ${containerStyles}`}>
+    <button type="submit" className={`custom-btn flex items-center justify-center gap-2 bg-buttonBlue ${containerStyles}`}>
       <div className={textStyles}>
        {titleLines.map((line, index) => (
           index === 0 ? (

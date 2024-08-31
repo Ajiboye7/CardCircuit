@@ -167,7 +167,7 @@ body {
   @apply text-[18px] leading-[24px] font-[700]
 }
 .featured-in-text{
-  @apply text-[70px] leading-[83.54px] font-[600]
+  @apply text-[30px] xs:text-[35px] sm:text-[40px] md:text-[50px] lg:text-[50px] xl:text-[60px] 2xl:text-[70px] leading-[83.54px] font-[600]
 }
 .featured-in-text-span{
   @apply font-[800]

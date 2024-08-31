@@ -3,7 +3,7 @@ import CustomButton from "./CustomButton";
 const GetStarted = () => {
   return (
     <section className=" mx-5 md:mx-10 lg:mx-20 bg-footer-bg1 bg-center z-10">
-      <div className=" text-center max-w-[1440px] mx-auto min-h-[400px] md:min-h-[600px] bg-fontColor rounded-3xl sm:rounded-borderCurve p-5 sm:p-14 sm:relative top-64 bg-footer-bg1 bg-no-repeat ">
+      <div className=" text-center max-w-[1440px] mx-auto min-h-[400px] md:min-h-[600px] bg-fontColor rounded-3xl sm:rounded-borderCurve p-5 sm:p-14 sm:relative top-64 bg-footer-bg1 bg-no-repeat mb-[3rem] sm:mb-0 ">
         <p className="text-customBg get-started-title sm:my-4 md:my-6 lg:my-8 xl:my-12">
           Get{" "}
           <span className="text-cardThreeBg get-started-title-span">

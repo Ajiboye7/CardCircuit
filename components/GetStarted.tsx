@@ -39,16 +39,16 @@ const GetStarted = () => {
             Icon="/playstore-svgrepo-com 1.svg"
             imageStyle="get-started-img1"
             containerStyles="flex-row-reverse bg-customBg w-[250px] h-[80px] rounded-[10px]"
-            line1Styles=""
-            line2Styles="font-bold "
+            line1Styles="text-[18px]"
+            line2Styles="font-bold text-[25px] "
           />
           <CustomButton
             title="Download on the<br> App Store"
             Icon="/Vector.svg"
             imageStyle="get-started-img2"
             containerStyles="flex-row-reverse bg-customBg w-[250px] h-[80px]"
-            line1Styles=""
-            line2Styles="font-bold "
+            line1Styles="text-[18px]"
+            line2Styles="font-bold text-[25px] "
             
           />
         </div>

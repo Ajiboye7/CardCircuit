@@ -11,12 +11,12 @@ const GetStarted = () => {
           </span>
           Today
         </p>
-        <p className="get-started-body bg-footer2 bg-no-repeat mb-12 text-GetStartedTextFont">
+        <p className="get-started-body bg-footer2 bg-no-repeat mb-8 sm:mb-12 text-GetStartedTextFont">
           Ready to revolutionize how you manage your money? Take the leap
           towards effortless money management with CardCircuit. Join us now and
           experience the future of centralized finance.
         </p>
-        <div className="flex flex-col xs:flex-row items-center justify-center gap-[10px] lg:gap-[30px] ">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] lg:gap-[30px] ">
           {/*<CustomButton
             title="GET IT ON<br> Google Play"
             Icon="/playstore-svgrepo-com 1.svg"
@@ -38,17 +38,17 @@ const GetStarted = () => {
             title="GET IT ON<br> Google Play"
             Icon="/playstore-svgrepo-com 1.svg"
             imageStyle="get-started-img1"
-            containerStyles="flex-row-reverse bg-customBg w-[200px] h-[60px] xs:w-[250px] xs:h-[80px] rounded-[10px] "
-            line1Styles="text-[25px] xs:text-[18px]"
-            line2Styles="font-bold text-[20px] xs:text-[25px] "
+            containerStyles="flex-row-reverse bg-customBg w-[200px] h-[60px] xs:w-[250px] xs:h-[80px] rounded-[10px] !p-10 sm:!p-11"
+            line1Styles="sm:text-[25px] text-[18px]"
+            line2Styles="font-bold text-[20px] sm:text-[25px]"
           />
           <CustomButton
             title="Download on the<br> App Store"
             Icon="/Vector.svg"
             imageStyle="get-started-img2"
-            containerStyles="flex-row-reverse bg-customBg w-[200px] h-[60px] xs:w-[250px] xs:h-[80px] rounded-[10px]"
-            line1Styles="text-[18px] xs:text-[20px]"
-            line2Styles="font-bold text-[20px] xs:text-[25px] "
+            containerStyles="flex-row-reverse bg-customBg w-[200px] h-[60px] xs:w-[250px] xs:h-[80px] rounded-[10px] !p-10 sm:!p-11"
+            line1Styles="text-[18px] sm:text-[20px]"
+            line2Styles="font-bold text-[20px] sm:text-[25px] "
             
           />
         </div>

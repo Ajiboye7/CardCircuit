@@ -12,11 +12,7 @@ const GetStarted = () => {
           Today
         </p>
         <p className="get-started-body bg-footer2 bg-no-repeat mb-8 sm:mb-12 text-GetStartedTextFont">
-          Ready to revolutionize how you manage your money? Take the leap
-          towards effortless money management with CardCircuit. Join us now and
-          experience the future of centralized finance.
-        </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] lg:gap-[30px] ">
+          Ready to revolutionize gity-center gap-[10px] lg:gap-[30px] ">
           {/*<CustomButton
             title="GET IT ON<br> Google Play"
             Icon="/playstore-svgrepo-com 1.svg"

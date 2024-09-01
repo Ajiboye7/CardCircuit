@@ -6,26 +6,7 @@ const Button = ({ title, containerStyles, Icon, textStyles,imageStyle,line1Style
 
   return (
     <div>
-    <button type="submit" className={`custom-btn flex items-center justify-center gap-2 bg-buttonBlue ${containerStyles}`}>
-      <div className={textStyles}>
-       {titleLines.map((line, index) => (
-          index === 0 ? (
-            <div key={index} className={line1Styles}>{line}</div>
-          ) : (
-            <div key={index} className={line2Styles}>{line}</div>
-          )
-        ))}
-      </div>
-      {Icon && (
-        <div className="flex-shrink-0">
-          <Image src={Icon} alt="icon" width={20} height={20} className={`${imageStyle}`} />
-        </div>
-      )}
-    </button>
-  </div>
-
-  );
-};
+    <butt
 
 export default Button;
 

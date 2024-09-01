@@ -155,15 +155,6 @@ body {
   @apply w-[24px] h-[24px]
 }
 .card-name{
-  @apply text-[35px] leading-[49.38px] font-[700]
-}
-.card-profession{
-  @apply text-[18px] leading-[21.95px] font-[590]
-}
-.card-skill{
-  @apply text-[13px] leading-[21.95px] font-[510]
-}
-.card-pop-up{
   @apply text-[18px] leading-[24px] font-[700]
 }
 .featured-in-text{

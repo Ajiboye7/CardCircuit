@@ -40,22 +40,7 @@ export default TestimonialSection;
 
 
 
-/*import React from 'react';
-
-import { TestimonialCard } from '@/components';
-import { Testimonial as TestimonialData } from '@/constants';
-import Image from 'next/image';
-
-const TestimonialSection = () => {
-  
-
-  return (
-    <div>
-      <h1 className='text-fontColor text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-semibold'>
-        What our <span className='text-cardThreeBg'>customers</span> are saying
-      </h1>
-    
-        {TestimonialData.map((testimonial) => (
+/*import Remonial) => (
           <div key={testimonial.id}>
             <TestimonialCard testimonial={testimonial} />
           </div>

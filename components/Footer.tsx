@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-FooterBackground w-full">
       <div className="content flex flex-col max-w-[1600px] mx-auto p-10 xs:min-h-[1000px] sm:min-h-[1100px] md:min-h-[1100px] lg:min-h-[1000px] justify-end sm:mt-0">
-        <div className="top flex flex-row justify-between flex-wrap gap-5 mb-28">
+        <div className="top flex flex-row justify-between flex-wrap gap-[10px] xs:gap-5 mb-28">
           <div className="left items-center">
             <div className="logo flex items-center gap-3">
               <Image src="/Logo.svg" alt="logo" width={80} height={80} />

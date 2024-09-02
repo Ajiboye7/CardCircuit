@@ -16,7 +16,7 @@ const GetStarted = () => {
           towards effortless money management with CardCircuit. Join us now and
           experience the future of centralized finance.
         </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] lg:gap-[30px] ">
+        <div className="flex flex-row xs:flex-col sm:flex-row items-center justify-center gap-[10px] lg:gap-[30px] ">
           {/*<CustomButton
             title="GET IT ON<br> Google Play"
             Icon="/playstore-svgrepo-com 1.svg"
@@ -38,17 +38,17 @@ const GetStarted = () => {
             title="GET IT ON<br> Google Play"
             Icon="/playstore-svgrepo-com 1.svg"
             imageStyle="get-started-img1"
-            containerStyles="flex-row-reverse bg-customBg w-[200px] h-[60px] xs:w-[250px] xs:h-[80px] rounded-[10px] !p-10 sm:!p-11"
-            line1Styles="sm:text-[25px] text-[18px]"
-            line2Styles="font-bold text-[20px] sm:text-[25px]"
+            containerStyles="flex-row-reverse bg-customBg w-[150px] h-[50px] xs:w-[250px] xs:h-[80px] rounded-[10px]  xs:!p-11"
+            line1Styles="xs:text-[25px] text-[10px]"
+            line2Styles="font-bold text-[13px] xs:text-[20px]"
           />
           <CustomButton
             title="Download on the<br> App Store"
             Icon="/Vector.svg"
             imageStyle="get-started-img2"
-            containerStyles="flex-row-reverse bg-customBg w-[200px] h-[60px] xs:w-[250px] xs:h-[80px] rounded-[10px] !p-10 sm:!p-11"
-            line1Styles="text-[18px] sm:text-[20px]"
-            line2Styles="font-bold text-[20px] sm:text-[25px] "
+            containerStyles="flex-row-reverse bg-customBg w-[150px] h-[50px] xs:w-[250px] xs:h-[80px] rounded-[10px]  xs:!p-11"
+            line1Styles="text-[10px] xs:text-[20px]"
+            line2Styles="font-bold text-[13px] xs:text-[25px] "
             
           />
         </div>

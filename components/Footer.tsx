@@ -56,7 +56,7 @@ const Footer = () => {
                   >
                     {columnIndex === FooterLinks.length - 1 &&
                     linkIndex === column.links.length - 1 ? (
-                      <Link href={link.url} className="flex gap-3 items-center border-b-2 pb-4">
+                      <Link href={link.url} className="flex gap-3 items-center border-b-2 pb-4 ">
                         {link.title}{" "}
                         <Image 
                         src="/Arrow Right.svg" 

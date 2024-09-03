@@ -85,7 +85,7 @@ const Navbar = () => {
         <Link href="/about-us" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
       </div>
       <div className="hidden lg:flex">
-        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon='' />
+        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon=''/>
       </div>
       <div className="lg:hidden">
       <button onClick={() => {

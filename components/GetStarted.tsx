@@ -48,7 +48,7 @@ const GetStarted = () => {
             imageStyle="get-started-img2"
             containerStyles="flex-row-reverse bg-customBg w-[150px] h-[50px] xs:w-[250px] xs:h-[80px] rounded-[10px]  xs:!p-11"
             line1Styles="text-[10px] xs:text-[20px] "
-            line2Styles="font-bold text-[13px] xs:text-[25px]"
+            line2Styles="font-bold text-[13px] xs:text-[25px] "
             
           />
         </div>

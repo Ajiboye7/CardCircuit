@@ -58,12 +58,12 @@ const Footer = () => {
                     linkIndex === column.links.length - 1 ? (
                       <Link href={link.url} className="flex gap-3 items-center border-b-2 pb-4 ">
                         {link.title}{" "}
-                        <Image 
+                        {/*<Image 
                         src="/Arrow Right.svg" 
                         alt="arrow-right" 
                         width={40}
                         height={40}
-                        />
+                        />*/}
                       </Link>
                     ) : (
                       <Link href={link.url}>{link.title}</Link>

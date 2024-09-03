@@ -140,25 +140,25 @@ body {
   @apply text-[20px] xs:text-[25px] sm:text-[30px] md:text-[35px] lg:text-[48px] xl:text-[60px] 2xl:text-[70px] leading-[83.54px] font-[800]
 }
 .pop-card-text{
-  @apply text-[18px] leading-[24px] font-[700]
+  @apply text-[15px] leading-[22px] xs:text-[18px] xs:leading-[24px] font-[700]
 }
 .testimonial-big-card{
-  @apply w-[380px] h-[600px] rounded-[50px]
+  @apply w-[330px] h-[450px] xs:w-[380px] xs:h-[600px] rounded-[50px]
 }
 .testimonial-small-card{
-  @apply w-[340px] h-[196px] rounded-b-[21.95px]
+  @apply w-[310px] h-[186px] xs:w-[340px] xs:h-[196px]
 }
 .image-group{
-  @apply w-[120px] h-[24px]
+  @apply w-[100px] xs:w-[120px] h-[24px]
 }
 .image-single{
   @apply w-[24px] h-[24px]
 }
 .card-name{
-  @apply text-[35px] leading-[49.38px] font-[700]
+  @apply text-[28px] xs:text-[35px] leading-[49.38px] font-[700]
 }
 .card-profession{
-  @apply text-[18px] leading-[21.95px] font-[590]
+  @apply text-[16px] xs:text-[18px] leading-[21.95px] font-[590]
 }
 .card-skill{
   @apply text-[13px] leading-[21.95px] font-[510]

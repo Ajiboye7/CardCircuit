@@ -12,7 +12,7 @@ const WithEase = () => {
         Setting up your financial world has never been this smooth. CardCircuit brings you a hassle-free registration experience
         that's as swift as it is intuitive. With just a few clicks, you're ready to take control of your finances.
       </p>
-      <CustomButton title="Get the App" containerStyles="text-fontColor " Icon="/Arrow Right.svg"/>
+      <CustomButton title="Get the App" containerStyles="text-fontColor " Icon=""/>
     </div>
 
     {/* Right Side */}

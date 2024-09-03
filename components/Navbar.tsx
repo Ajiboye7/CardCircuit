@@ -85,7 +85,7 @@ const Navbar = () => {
         <Link href="/about-us" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
       </div>
       <div className="hidden lg:flex">
-        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon="/Arrow Right.svg" />
+        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon='' />
       </div>
       <div className="lg:hidden">
       <button onClick={() => {
@@ -100,7 +100,7 @@ const Navbar = () => {
         </button>
       </div>
       {isOpen && (
-        <div className="absolute top-16 left-0 right-0 bg-customBg flex flex-col items-center space-y-4 py-6 lg:hidden">
+        <div className="absolute top-20 xs:top-24 left-0 right-0 bg-customBg flex flex-col items-center space-y-4 py-6 lg:hidden">
           <Link href="/" className="text-fontColor nav-link hover:text-blue-800">Home</Link>
           <Link href="/features" className="text-fontColor nav-link  hover:text-blue-800">Features</Link>
           <Link href="/stories" className="text-fontColor nav-link  hover:text-blue-800">Stories</Link>
@@ -115,7 +115,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
 
 
 

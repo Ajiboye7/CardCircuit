@@ -40,22 +40,7 @@ export const Testimonial/*:TestimonialProps[]*/ = [
     },
 ]
 
-export const FooterLinks =[ 
-    {
-        title:'Company',
-        links:[
-            {title: 'About US', url:'/'},
-            {title: 'Contact Us', url:'/'},
-            {title: 'Our Team', url:'/'},
-            {title: 'Careers', url:'/'},
-        ]
-    },
-    {
-        title:'Explore',
-        links:[
-            {title: 'Explore', url:'/'},
-            {title: 'Blog', url:'/'},
-            {title: 'FAQs', url:'/'},
+export const FooterL
         ]
     },
     {

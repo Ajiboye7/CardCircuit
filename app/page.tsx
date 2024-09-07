@@ -12,8 +12,7 @@ export default function Home() {
       <Hero />
       <TextWithBackground/>
       <Features/>
-      <WithEase/>
-      <TestimonialSection/>
+      <WithEas
       <AsFeaturedIn/>
       <GetStarted/>
     </main>

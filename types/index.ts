@@ -26,7 +26,13 @@ export interface TestimonialProps {
   }
 
   
-  
+  /*export interface Settings {
+    dots?: boolean;
+    infinite?: boolean;
+    speed?: number;
+    slidesToShow?: number;
+    slidesToScroll?: number;
+    nextArrow?: JSX.Element;
     prevArrow?: JSX.Element;
     [key: string]: any;
   }*/

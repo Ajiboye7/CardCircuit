@@ -47,22 +47,7 @@ const Features = () => {
       </div>
     </div>
 
-    <div className="card-three bg-cardThreeBg pt-8 md:col-span-2 feature-border">
-      <div className="card-contents flex flex-col lg:flex-row items-center gap-3 pt-5 sm:px-10 sm:pt-10">
-        <div className="card-content-left flex-1 w-full flex-wrap p-5">
-          <p className="text-fontColor feature-title">
-            Swift Transfer, Instant <span className="feature-title-span">Control</span>
-          </p>
-          <p className="text-fontColor feature-body mt-5 mb-5">
-            Move money effortlessly between your cards with CardCircuit's
-            lightning-quick transfers. Say goodbye to waiting and hello to
-            instant financial flexibility.
-          </p>
-          <div className="main-button flex flex-col gap-5 items-center sm:gap-2 sm:flex-row md:gap-5 lg:gap-4 flex-nowrap">
-            <CustomButton
-              title="Get on Android"
-              Icon="/playstore-svgrepo-com 1.svg"
-              textStyles="text-[16px]"
+    <div classN
             />
             <CustomButton
               title="Get on iPhone"

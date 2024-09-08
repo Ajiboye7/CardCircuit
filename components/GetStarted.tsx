@@ -17,21 +17,7 @@ const GetStarted = () => {
           experience the future of centralized finance.
         </p>
         <div className="flex flex-row xs:flex-col sm:flex-row items-center justify-center gap-[10px] lg:gap-[30px] ">
-          {/*<CustomButton
-            title="GET IT ON<br> Google Play"
-            Icon="/playstore-svgrepo-com 1.svg"
-            imageStyle=" w-[35px] md:w-8 lg:w-10 xl:w-16 sm:ml-2"
-            containerStyles="flex-row-reverse bg-customBg"
-            line2Styles="font-bold md:text-3xl lg:text-4xl"
-            line1Styles="md:text-2xl lg:text-2xl md:mr-16 lg:mr-24"
-          />
-          <CustomButton 
-          title="Download on the<br> App Store" 
-          Icon="/Vector.svg" 
-          imageStyle=" w-[35px] md:w-8 lg:w-10 xl:w-16 sm:ml-2"
-          containerStyles="flex-row-reverse bg-customBg"
-          line2Styles="font-bold md:text-3xl lg:text-4xl"
-          line1Styles="text-1xl md:text-2xl"
+       ="text-1xl md:text-2xl"
           />*/}
 
           <CustomButton

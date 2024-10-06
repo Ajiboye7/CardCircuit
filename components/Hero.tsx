@@ -21,7 +21,36 @@ const Hero = () => {
            <br/> Manage and track all your cards in one app.
           </p>
          {/* <div className="flex mt-10 sm:justify-center md:justify-center gap-4 md:gap-2 lg:gap-5 xl:gap-10">
+            <CustomButton
+              title="Get on Android"
+              Icon="/playstore-svgrepo-com 1.svg"
+              textStyles="button-text"
+              imageStyle="w-7 sm:w-10 md:w-[24px]"
+            />
 
+            <CustomButton 
+              title="Get on iPhone"
+              Icon="/Vector.svg"
+              textStyles="button-text"
+              imageStyle="w-7 sm:w-8 md:w-[24px]"
+              containerStyles="gap-2"
+            />
+          </div>*/}
+        </div>
+      </div>
+      {/* Full Width Image */}
+      <div className="mt-8 sm:mt-24 bg-hero-bg bg-no-repeat ">
+        <Image
+          src="/Mockups.svg"
+          alt="analyticSreen"
+          width={500}
+          height={500}
+          className="w-full h-auto"
+        />
+      </div>
+      </div>
+      
+    </section>
   );
 };
 

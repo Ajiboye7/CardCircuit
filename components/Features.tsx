@@ -90,3 +90,68 @@ const Features = () => {
 
 export default Features;
 
+{
+  /*
+     <div className="container  max-w-[1400px] mx-auto p-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="card-one bg-gray-200 p-4 rounded-3xl pl-12 relative group">
+          <div className="card-content flex flex-col">
+            <h2 className="text-blue-600 text-7xl">
+              <span className="font-bold">Centralize</span> Your Chaos
+            </h2>
+            <p className="text-blue-400 mt-2 text-2xl">
+              Your entire financial universe in one <br />
+              app.Link cards, manage
+              <br />
+              transactions, and stay on top of <br />
+              your finances effortlessly!.
+            </p>
+            <div className="absolute bottom-0 right-0  transition-transform transform translate-x-full translate-y-full group-hover:translate-x-0 group-hover:translate-y-0 duration-500">
+              <Image
+                src="/My Cards Screen Mockup 3.svg"
+                alt="image7"
+                width={300}
+                height={300}
+                className="w-full h-full"
+              />
+            </div>
+          </div>
+        </div>
+    
+    
+    */
+}
+
+/*import Image from "next/image";
+import CustomButton from "./CustomButton";
+
+export default function Section() {
+  return (
+    <section className="container max-w-[1400px] mx-auto p-4">
+      <div className="flex flex-col md:flex-row items-center border-solid border-4 border-light-blue-500">
+        {/* Left Side 
+        <div className="flex-1 md:mr-4 ml-4 md:text-left mb-4 md:mb-0">
+          <h1 className="text-2xl md:text-5xl font-bold mb-4 text-fontColor ">Simplify Your Wallet.<br />Unify Your Finances.</h1>
+        </div>
+        {/* Right Side
+        <div className="flex-1 md:ml-4 md:text-left mb-4 md:mb-0">
+          <p className="text-lg md:text-3xl mb-4 text-fontColor">Welcome to seamless centralized banking. <br/>Manage and track all your cards in one app.</p>
+          <div className="flex justify-center md:justify-start gap-10">
+            <CustomButton title="Get on Android" Icon="/playstore-svgrepo-com 1.svg" />
+            <CustomButton title="Get on iPhone" Icon="/Vector.svg" />
+          </div>
+        </div>
+      </div>
+      {/* Full Width Image 
+      <div className="mt-4">
+        <Image
+          src="/Mockups.svg"
+          alt="analyticSreen"
+          width={500}
+          height={500}
+          className="w-full h-auto"
+        />
+      </div>
+    </section>
+  );
+}*/

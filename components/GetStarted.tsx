@@ -18,7 +18,21 @@ const GetStarted = () => {
         </p>
         <div className="flex flex-row xs:flex-col sm:flex-row items-center justify-center gap-[10px] lg:gap-[30px] ">
           
-:text-[20px] "
+
+          <CustomButton
+            title="GET IT ON<br> Google Play"
+            Icon="/playstore-svgrepo-com 1.svg"
+            imageStyle="get-started-img1 transform: scale(1.1) rotate(10deg);"
+            containerStyles="flex-row-reverse bg-customBg w-[150px] h-[50px] xs:w-[250px] xs:h-[80px] rounded-[10px]  xs:!p-11"
+            line1Styles="xs:text-[25px] text-[10px]"
+            line2Styles="font-bold text-[13px] xs:text-[20px]"
+          />
+          <CustomButton
+            title="Download on the<br> App Store"
+            Icon="/Vector.svg"
+            imageStyle="get-started-img2"
+            containerStyles="flex-row-reverse bg-customBg w-[150px] h-[50px] xs:w-[250px] xs:h-[80px] rounded-[10px]  xs:!p-11"
+            line1Styles="text-[10px] xs:text-[20px] "
             line2Styles="font-bold text-[13px] xs:text-[25px] "
             
           />

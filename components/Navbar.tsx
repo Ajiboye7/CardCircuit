@@ -78,22 +78,7 @@ const Navbar = () => {
           </div>
         </Link>
       </div>
-      <div className="hidden lg:flex items-center space-x-6 bg-linkBg p-6 rounded-full mr-3 h-24 w-auto">
-        <Link href="/" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800">Home</Link>
-        <Link href="/features" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800">Features</Link>
-        <Link href="/stories" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800">Stories</Link>
-        <Link href="/about-us" className="text-navLinkFont nav-link text-fontColor hover:text-blue-800 flex-shrink-0">About Us</Link>
-      </div>
-      <div className="hidden lg:flex">
-        <CustomButton title="Get the App" containerStyles="text-fontColor" Icon=''/>
-      </div>
-      <div className="lg:hidden">
-      <button onClick={() => {
-          console.log("Toggling menu"); 
-          setIsOpen(!isOpen);
-        }}>
-          {isOpen ? (
-            <FontAwesomeIcon icon={faTimes} className="w-6 h-6 md:w-10 md:h-10 text-fontColor" />
+      <div className="hidden lg:flex itemd:w-10 md:h-10 text-fontColor" />
           ) : (
             <FontAwesomeIcon icon={faBars} className="w-6 h-6 md:w-10 md:h-10 text-fontColor" />
           )}

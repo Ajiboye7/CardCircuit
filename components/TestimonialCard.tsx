@@ -18,13 +18,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ testimonial }) => {
         layout="intrinsic"
         /*layout="fill"
         objectFit="cover"*/
-        className="absolute inset-0 z-0"
-      />
-
-      {/* Smaller Card */}
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10 p-4 bg-testimonialCardBg testimonial-small-card bg-opacity-70 shadow-lg rounded-[21.95px] group-hover:rounded-t-none group-hover:rounded-b-[21.95px]">
-        <div className="flex flex-col gap-[0.5rem] xs:gap-3 ">
-          <div className="flex items-center mt-5">
+        classNa tems-center mt-5">
             <Image
               src="/Stars.svg"
               alt="5 stars"
